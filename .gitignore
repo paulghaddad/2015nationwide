@@ -5,3 +5,5 @@ Thumbs.db
 Design/
 img/
 .sass-cache
+*.png
+*.ico

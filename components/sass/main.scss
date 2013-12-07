@@ -97,9 +97,13 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-@import 'normalize'
+@import 'normalize';
 
+$mycolor: purple;
 
+p {
+    color: $mycolor;
+}
 
 
 

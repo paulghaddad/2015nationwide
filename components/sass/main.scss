@@ -97,13 +97,18 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+@import "compass";
+@import "susy";
 @import 'normalize';
 
-$mycolor: purple;
+@import "variables";
+@import "mixins";
+@import "base";
+@import "grid";
+@import "modules";
+@import "home_page"
 
-p {
-    color: $mycolor;
-}
+
 
 
 

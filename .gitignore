@@ -7,3 +7,4 @@ img/
 .sass-cache
 *.png
 *.ico
+node_modules/

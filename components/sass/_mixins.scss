@@ -1,0 +1,21 @@
+/* Horizontal Navigation Menu */
+
+@mixin horizontal_nav_menu($line-height) {
+	ul {
+		padding: 0;
+		margin: 0;
+		float: left;
+		width: 100%;
+		li {
+			float: left;
+			padding: 0;
+			margin: 0;
+		}
+		li, a {
+			display: block;
+			line-height: $line-height;  
+			padding: 0;
+		}
+		
+	}
+}

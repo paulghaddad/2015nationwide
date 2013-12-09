@@ -1,0 +1,24 @@
+/* Susy Setup */
+$total-columns: 4;
+$column-width: 4em;
+$gutter-width: 2em;
+$grid-padding: 0;
+
+@include border-box-sizing;
+
+.page {
+	@include container;
+
+}
+
+@mixin breakpoint($point) {
+  @if $point == alpha {
+    @media (max-width: 1600px) { @content; }
+  }
+  @else if $point == beta {
+    @media (max-width: 1250px) { @content; }
+  }
+  @else if $point == gamma {
+    @media (max-width: 650px)  { @content; }
+  }
+}

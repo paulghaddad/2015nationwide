@@ -586,9 +586,113 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 104, ../components/sass/main.scss */
-p {
-  color: purple; }
+/* Horizontal Navigation Menu */
+/* line 1, ../components/sass/_base.scss */
+body {
+  font-size: 1em; }
+
+/* Susy Setup */
+/* line 14, ../../../.rvm/gems/ruby-2.0.0-p0/gems/susy-1.0.9/sass/susy/_grid.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 9, ../components/sass/_grid.scss */
+.page {
+  *zoom: 1;
+  max-width: 22em;
+  _width: 22em;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto; }
+  /* line 38, ../../../.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  .page:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+/* line 2, ../components/sass/_homepage.scss */
+.home-page body {
+  background: #0081c7; }
+/* line 6, ../components/sass/_homepage.scss */
+.home-page header {
+  background: #1d1d1d;
+  height: 100px;
+  background: url("../img/home/nationwide_insurance_logo.png") 10% 18% no-repeat, url("../img/home/nationwide_financial_logo.png") 90% 18% no-repeat, #1d1d1d;
+  background-size: 40%; }
+  /* line 13, ../components/sass/_homepage.scss */
+  .home-page header nav {
+    overflow: hidden;
+    *zoom: 1;
+    position: relative;
+    top: 60px; }
+    /* line 4, ../components/sass/_mixins.scss */
+    .home-page header nav ul {
+      padding: 0;
+      margin: 0;
+      float: left;
+      width: 100%; }
+      /* line 9, ../components/sass/_mixins.scss */
+      .home-page header nav ul li {
+        float: left;
+        padding: 0;
+        margin: 0; }
+      /* line 14, ../components/sass/_mixins.scss */
+      .home-page header nav ul li, .home-page header nav ul a {
+        display: block;
+        line-height: 2em;
+        padding: 0; }
+    /* line 18, ../components/sass/_homepage.scss */
+    .home-page header nav ul {
+      margin: .5em 29%; }
+      /* line 20, ../components/sass/_homepage.scss */
+      .home-page header nav ul li {
+        width: 14%;
+        padding: 0; }
+        /* line 23, ../components/sass/_homepage.scss */
+        .home-page header nav ul li a {
+          color: #f4f4f4;
+          line-height: 1;
+          text-align: center;
+          border-right: 1px solid #f4f4f4;
+          text-decoration: none; }
+        /* line 30, ../components/sass/_homepage.scss */
+        .home-page header nav ul li:nth-of-type(3) a {
+          border-right: none; }
+/* line 38, ../components/sass/_homepage.scss */
+.home-page .banner {
+  background-size: 100%;
+  width: 100%;
+  height: 130px;
+  background: url("../img/home/home_banner1.jpg") no-repeat;
+  background-size: 100%; }
+/* line 46, ../components/sass/_homepage.scss */
+.home-page .conference-icons {
+  margin-bottom: 3em;
+  overflow: hidden;
+  *zoom: 1; }
+  /* line 49, ../components/sass/_homepage.scss */
+  .home-page .conference-icons .icon {
+    width: 100%;
+    float: left;
+    margin-right: 9.09091%;
+    display: inline; }
+  /* line 53, ../components/sass/_homepage.scss */
+  .home-page .conference-icons img {
+    width: 65%;
+    height: auto;
+    min-width: 150px;
+    margin: 0 auto;
+    display: block; }
+  /* line 60, ../components/sass/_homepage.scss */
+  .home-page .conference-icons p {
+    text-align: center;
+    font-size: 0.8em;
+    color: #0081c7;
+    margin-top: 0;
+    margin-bottom: 0; }
 
 /* ==========================================================================
    Helper classes
@@ -596,7 +700,7 @@ p {
 /*
  * Image replacement
  */
-/* line 128, ../components/sass/main.scss */
+/* line 133, ../components/sass/main.scss */
 .ir {
   background-color: transparent;
   border: 0;
@@ -604,7 +708,7 @@ p {
   /* IE 6/7 fallback */
   *text-indent: -9999px; }
 
-/* line 136, ../components/sass/main.scss */
+/* line 141, ../components/sass/main.scss */
 .ir:before {
   content: "";
   display: block;
@@ -614,7 +718,7 @@ p {
 /*
  * Hide from both screenreaders and browsers: h5bp.com/u
  */
-/* line 147, ../components/sass/main.scss */
+/* line 152, ../components/sass/main.scss */
 .hidden {
   display: none !important;
   visibility: hidden; }
@@ -622,7 +726,7 @@ p {
 /*
  * Hide only visually, but have it available for screenreaders: h5bp.com/v
  */
-/* line 156, ../components/sass/main.scss */
+/* line 161, ../components/sass/main.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -637,7 +741,7 @@ p {
  * Extends the .visuallyhidden class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
  */
-/* line 173, ../components/sass/main.scss */
+/* line 178, ../components/sass/main.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -650,7 +754,7 @@ p {
 /*
  * Hide visually and from screenreaders, but maintain layout
  */
-/* line 186, ../components/sass/main.scss */
+/* line 191, ../components/sass/main.scss */
 .invisible {
   visibility: hidden; }
 
@@ -665,7 +769,7 @@ p {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 203, ../components/sass/main.scss */
+/* line 208, ../components/sass/main.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -673,7 +777,7 @@ p {
   display: table;
   /* 2 */ }
 
-/* line 208, ../components/sass/main.scss */
+/* line 213, ../components/sass/main.scss */
 .clearfix:after {
   clear: both; }
 
@@ -681,7 +785,7 @@ p {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 217, ../components/sass/main.scss */
+/* line 222, ../components/sass/main.scss */
 .clearfix {
   *zoom: 1; }
 
@@ -699,7 +803,7 @@ p {
    Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
 @media print {
-  /* line 244, ../components/sass/main.scss */
+  /* line 249, ../components/sass/main.scss */
   * {
     background: transparent !important;
     color: #000 !important;
@@ -707,59 +811,59 @@ p {
     box-shadow: none !important;
     text-shadow: none !important; }
 
-  /* line 252, ../components/sass/main.scss */
+  /* line 257, ../components/sass/main.scss */
   a,
   a:visited {
     text-decoration: underline; }
 
-  /* line 256, ../components/sass/main.scss */
+  /* line 261, ../components/sass/main.scss */
   a[href]:after {
     content: " (" attr(href) ")"; }
 
-  /* line 260, ../components/sass/main.scss */
+  /* line 265, ../components/sass/main.scss */
   abbr[title]:after {
     content: " (" attr(title) ")"; }
 
   /*
    * Don't show links for images, or javascript/internal links
    */
-  /* line 270, ../components/sass/main.scss */
+  /* line 275, ../components/sass/main.scss */
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: ""; }
 
-  /* line 275, ../components/sass/main.scss */
+  /* line 280, ../components/sass/main.scss */
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid; }
 
-  /* line 280, ../components/sass/main.scss */
+  /* line 285, ../components/sass/main.scss */
   thead {
     display: table-header-group;
     /* h5bp.com/t */ }
 
-  /* line 285, ../components/sass/main.scss */
+  /* line 290, ../components/sass/main.scss */
   tr,
   img {
     page-break-inside: avoid; }
 
-  /* line 289, ../components/sass/main.scss */
+  /* line 294, ../components/sass/main.scss */
   img {
     max-width: 100% !important; }
 
   @page {
     margin: 0.5cm; }
 
-  /* line 299, ../components/sass/main.scss */
+  /* line 304, ../components/sass/main.scss */
   p,
   h2,
   h3 {
     orphans: 3;
     widows: 3; }
 
-  /* line 305, ../components/sass/main.scss */
+  /* line 310, ../components/sass/main.scss */
   h2,
   h3 {
     page-break-after: avoid; } }

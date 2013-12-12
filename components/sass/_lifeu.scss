@@ -1,0 +1,50 @@
+.lifeu {
+
+	header {
+		@extend .header;
+		background: url(../img/lifeu/lifeu_header.png) 50% 50% no-repeat, $blue;
+		@include at-breakpoint($beta) {
+			background-position: 10% 50%;
+		}
+	}
+
+	section {
+		@include tiles;
+		background: url(../img/lifeu/textured_paper.png) repeat, $gray;
+
+		
+		.mobile-tiles{
+			div div {
+				height: 100%;
+				width: 100%;
+				background: purple;
+			}
+			@include at-breakpoint($beta) {
+				display: none;
+			}
+		}
+
+		.desktop-tiles div {
+			width: 16.66%;
+			background: purple;
+			float: left;
+		}
+
+		img {
+			width: 80%;
+			height: auto;
+			display: block;
+			margin: 0 auto;
+			padding: 4em 0;
+		}
+
+	}
+
+	footer {
+		@extend .footer;
+		background: url("../img/home/nationwide_financial_logo.png") 50% 25% no-repeat, $blue;
+		@include at-breakpoint($beta) {
+			background-position: 37% 50%;
+		}
+	}
+}

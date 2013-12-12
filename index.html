@@ -14,6 +14,7 @@
 
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
     </head>
     <body class="home-page">
         <!--[if lt IE 7]>
@@ -31,7 +32,13 @@
                     </ul>
                 </nav> <!-- top-nav -->
             </header>
-            <div class="banner"></div>
+            <div class="slider-wrapper theme-default">
+                <div id="slider" class="banner nivoSlider">
+                    <img src="img/home/home_banner1.jpg" alt="Nationwide Conferences">
+                    <img src="img/home/home_banner2.png" alt="Visit us in January 2014 for more information">
+                </div>
+            </div>
+
             <div class="conference-icons">
                 <div class="icon">
                     <a href="salescelebration" title="Sales Celebration"><img src="img/home/coming_soon.png" alt=""></a>
@@ -49,11 +56,24 @@
                     <p>LifeU</p>
                 </div>
             </div>
-        <!-- .container  -->
+        </div> <!-- .page  -->
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="js/script.js"></script>
+        <script type="text/javascript">
+        $(window).load(function() {
+            $('#slider').nivoSlider({
+                effect: 'slideInLeft',
+                pauseTime: 5000, 
+                directionNav: false,
+                //manualAdvance: true,
+                // controlNavThumbs: false,
+                // controlNav: false
+                });
+        });
+        </script>
+
         <script src="http://localhost:35729/livereload.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

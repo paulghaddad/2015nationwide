@@ -1,0 +1,70 @@
+/*  Header  */
+
+.header {
+	height: 9.5em;
+
+}
+
+@mixin tiles {
+	min-height: 30em;
+	.desktop-tiles {
+		display: none;
+		@include clearfix;
+	}
+	@include with-grid-settings(8,$column-width,0.25em,$grid-padding) {
+	  .mobile-tiles { 
+	  	@include container; 
+	  	@include susy-grid-background;
+	  	padding-top: 5em;
+	  	.left-tiles {
+	  		@include prefix(1);
+	  		@include span-columns(4,8);
+	  	}
+	  	.right-tiles {
+	  		@include suffix(1);
+	  		@include span-columns(4 omega,8);
+	  	}
+	  }
+	}
+	
+
+	@include at-breakpoint($beta) {
+		@include with-grid-settings(8,$column-width,0.25em,10%) {
+		  .desktop-tiles { 
+		  	display: block;
+		  	@include container; 
+		  	@include susy-grid-background;
+		  	padding-top: 5em;
+	  		@include pad(1,1);
+	  		@include span-columns(8,8);
+		  }
+		}
+	}
+}
+
+.footer {
+	height: 8.5em;
+	padding-top: 4.5em;
+
+	p {
+			text-align: center;
+			text-transform: uppercase;
+			@include at-breakpoint($beta) {
+				display: block;
+				position: relative;
+				width: 20%;
+				left: 50%;
+				bottom: 2em;
+
+			}
+			a {
+				color: $gray;
+				text-decoration: none;
+				font-size: .8em;
+			}
+			
+		}
+}
+
+
+

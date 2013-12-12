@@ -1,24 +1,27 @@
 /* Susy Setup */
 $total-columns: 4;
-$column-width: 4em;
+$column-width: 5em;
 $gutter-width: 2em;
 $grid-padding: 0;
+$container-style: fluid;
+
+
 
 @include border-box-sizing;
 
 .page {
 	@include container;
-
+	@include susy-grid-background;
 }
 
-@mixin breakpoint($point) {
-  @if $point == alpha {
-    @media (max-width: 1600px) { @content; }
-  }
-  @else if $point == beta {
-    @media (max-width: 1250px) { @content; }
-  }
-  @else if $point == gamma {
-    @media (max-width: 650px)  { @content; }
-  }
+$alpha: 25em 12;
+$beta: 35em 12;
+
+@include at-breakpoint($alpha) {
+  .page { @include container; }
 }
+
+@include at-breakpoint($beta) {
+  .page { @include container;}
+}
+

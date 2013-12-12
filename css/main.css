@@ -589,7 +589,8 @@ table {
 /* Horizontal Navigation Menu */
 /* line 1, ../components/sass/_base.scss */
 body {
-  font-size: 1em; }
+  font-size: 1em;
+  min-width: 19em; }
 
 /* Susy Setup */
 /* line 14, ../../../.rvm/gems/ruby-2.0.0-p0/gems/susy-1.0.9/sass/susy/_grid.scss */
@@ -598,20 +599,83 @@ body {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 9, ../components/sass/_grid.scss */
+/* line 12, ../components/sass/_grid.scss */
 .page {
   *zoom: 1;
-  max-width: 22em;
-  _width: 22em;
   padding-left: 0;
   padding-right: 0;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(100, 100, 225, 0.25)), color-stop(19.23077%, rgba(100, 100, 225, 0.25)), color-stop(19.23077%, rgba(0, 0, 0, 0)), color-stop(26.92308%, rgba(0, 0, 0, 0)), color-stop(26.92308%, rgba(100, 100, 225, 0.25)), color-stop(46.15385%, rgba(100, 100, 225, 0.25)), color-stop(46.15385%, rgba(0, 0, 0, 0)), color-stop(53.84615%, rgba(0, 0, 0, 0)), color-stop(53.84615%, rgba(100, 100, 225, 0.25)), color-stop(73.07692%, rgba(100, 100, 225, 0.25)), color-stop(73.07692%, rgba(0, 0, 0, 0)), color-stop(80.76923%, rgba(0, 0, 0, 0)), color-stop(80.76923%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 19.23077%, rgba(0, 0, 0, 0) 19.23077%, rgba(0, 0, 0, 0) 26.92308%, rgba(100, 100, 225, 0.25) 26.92308%, rgba(100, 100, 225, 0.25) 46.15385%, rgba(0, 0, 0, 0) 46.15385%, rgba(0, 0, 0, 0) 53.84615%, rgba(100, 100, 225, 0.25) 53.84615%, rgba(100, 100, 225, 0.25) 73.07692%, rgba(0, 0, 0, 0) 73.07692%, rgba(0, 0, 0, 0) 80.76923%, rgba(100, 100, 225, 0.25) 80.76923%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 19.23077%, rgba(0, 0, 0, 0) 19.23077%, rgba(0, 0, 0, 0) 26.92308%, rgba(100, 100, 225, 0.25) 26.92308%, rgba(100, 100, 225, 0.25) 46.15385%, rgba(0, 0, 0, 0) 46.15385%, rgba(0, 0, 0, 0) 53.84615%, rgba(100, 100, 225, 0.25) 53.84615%, rgba(100, 100, 225, 0.25) 73.07692%, rgba(0, 0, 0, 0) 73.07692%, rgba(0, 0, 0, 0) 80.76923%, rgba(100, 100, 225, 0.25) 80.76923%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 19.23077%, rgba(0, 0, 0, 0) 19.23077%, rgba(0, 0, 0, 0) 26.92308%, rgba(100, 100, 225, 0.25) 26.92308%, rgba(100, 100, 225, 0.25) 46.15385%, rgba(0, 0, 0, 0) 46.15385%, rgba(0, 0, 0, 0) 53.84615%, rgba(100, 100, 225, 0.25) 53.84615%, rgba(100, 100, 225, 0.25) 73.07692%, rgba(0, 0, 0, 0) 73.07692%, rgba(0, 0, 0, 0) 80.76923%, rgba(100, 100, 225, 0.25) 80.76923%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+  background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 19.23077%, rgba(0, 0, 0, 0) 19.23077%, rgba(0, 0, 0, 0) 26.92308%, rgba(100, 100, 225, 0.25) 26.92308%, rgba(100, 100, 225, 0.25) 46.15385%, rgba(0, 0, 0, 0) 46.15385%, rgba(0, 0, 0, 0) 53.84615%, rgba(100, 100, 225, 0.25) 53.84615%, rgba(100, 100, 225, 0.25) 73.07692%, rgba(0, 0, 0, 0) 73.07692%, rgba(0, 0, 0, 0) 80.76923%, rgba(100, 100, 225, 0.25) 80.76923%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+  background-position: left top;
+  -webkit-background-origin: content;
+  -moz-background-origin: content;
+  -ms-background-origin: content-box;
+  -o-background-origin: content-box;
+  background-origin: content-box;
+  -webkit-background-clip: content-box;
+  -moz-background-clip: content-box;
+  background-clip: content-box; }
   /* line 38, ../../../.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
   .page:after {
     content: "";
     display: table;
     clear: both; }
+
+@media (min-width: 25em) {
+  /* line 21, ../components/sass/_grid.scss */
+  .page {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto; }
+    /* line 38, ../../../.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+    .page:after {
+      content: "";
+      display: table;
+      clear: both; } }
+@media (min-width: 35em) {
+  /* line 25, ../components/sass/_grid.scss */
+  .page {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto; }
+    /* line 38, ../../../.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+    .page:after {
+      content: "";
+      display: table;
+      clear: both; } }
+/*  Header  */
+/* line 3, ../components/sass/_modules.scss */
+.header, .lifeu header {
+  height: 9.5em; }
+
+/* line 45, ../components/sass/_modules.scss */
+.footer, .lifeu footer {
+  height: 8.5em;
+  padding-top: 4.5em; }
+  /* line 49, ../components/sass/_modules.scss */
+  .footer p, .lifeu footer p {
+    text-align: center;
+    text-transform: uppercase; }
+    @media (min-width: 35em) {
+      /* line 49, ../components/sass/_modules.scss */
+      .footer p, .lifeu footer p {
+        display: block;
+        position: relative;
+        width: 20%;
+        left: 50%;
+        bottom: 2em; } }
+    /* line 60, ../components/sass/_modules.scss */
+    .footer p a, .lifeu footer p a {
+      color: #f4f4f4;
+      text-decoration: none;
+      font-size: .8em; }
 
 /* line 2, ../components/sass/_homepage.scss */
 .home-page body {
@@ -619,20 +683,15 @@ body {
 /* line 6, ../components/sass/_homepage.scss */
 .home-page header {
   background: #1d1d1d;
-  height: 100px;
-  background: url("../img/home/nationwide_insurance_logo.png") 10% 18% no-repeat, url("../img/home/nationwide_financial_logo.png") 90% 18% no-repeat, #1d1d1d;
-  background-size: 40%; }
-  /* line 13, ../components/sass/_homepage.scss */
+  height: 6.5em;
+  background: url("../img/home/nationwide_insurance_logo.png") 10% 18% no-repeat, url("../img/home/nationwide_financial_logo.png") 90% 18% no-repeat, #1d1d1d; }
+  /* line 12, ../components/sass/_homepage.scss */
   .home-page header nav {
-    overflow: hidden;
-    *zoom: 1;
-    position: relative;
-    top: 60px; }
+    height: 6.5em; }
     /* line 4, ../components/sass/_mixins.scss */
     .home-page header nav ul {
       padding: 0;
       margin: 0;
-      float: left;
       width: 100%; }
       /* line 9, ../components/sass/_mixins.scss */
       .home-page header nav ul li {
@@ -644,30 +703,32 @@ body {
         display: block;
         line-height: 2em;
         padding: 0; }
-    /* line 18, ../components/sass/_homepage.scss */
+    /* line 15, ../components/sass/_homepage.scss */
     .home-page header nav ul {
-      margin: .5em 29%; }
-      /* line 20, ../components/sass/_homepage.scss */
+      overflow: hidden;
+      *zoom: 1;
+      width: 50%;
+      margin: 0 auto;
+      position: relative;
+      top: 4.25em; }
+      /* line 21, ../components/sass/_homepage.scss */
       .home-page header nav ul li {
-        width: 14%;
+        width: 33.33%;
         padding: 0; }
-        /* line 23, ../components/sass/_homepage.scss */
+        /* line 24, ../components/sass/_homepage.scss */
         .home-page header nav ul li a {
           color: #f4f4f4;
           line-height: 1;
           text-align: center;
           border-right: 1px solid #f4f4f4;
           text-decoration: none; }
-        /* line 30, ../components/sass/_homepage.scss */
+        /* line 31, ../components/sass/_homepage.scss */
         .home-page header nav ul li:nth-of-type(3) a {
           border-right: none; }
-/* line 38, ../components/sass/_homepage.scss */
-.home-page .banner {
-  background-size: 100%;
+/* line 40, ../components/sass/_homepage.scss */
+.home-page .banner img {
   width: 100%;
-  height: 130px;
-  background: url("../img/home/home_banner1.jpg") no-repeat;
-  background-size: 100%; }
+  height: auto; }
 /* line 46, ../components/sass/_homepage.scss */
 .home-page .conference-icons {
   margin-bottom: 3em;
@@ -677,7 +738,7 @@ body {
   .home-page .conference-icons .icon {
     width: 100%;
     float: left;
-    margin-right: 9.09091%;
+    margin-right: 7.69231%;
     display: inline; }
   /* line 53, ../components/sass/_homepage.scss */
   .home-page .conference-icons img {
@@ -694,13 +755,421 @@ body {
     margin-top: 0;
     margin-bottom: 0; }
 
+@media (min-width: 25em) {
+  /* line 72, ../components/sass/_homepage.scss */
+  .home-page header {
+    height: 9em;
+    background: url("../img/home/nationwide_insurance_logo.png") 10% 75% no-repeat, url("../img/home/nationwide_financial_logo.png") 35% 75% no-repeat, #1d1d1d;
+    background-size: 18%; }
+    /* line 79, ../components/sass/_homepage.scss */
+    .home-page header nav ul {
+      float: right;
+      padding: 6em 0 0 0;
+      width: 50%;
+      position: static; }
+      /* line 84, ../components/sass/_homepage.scss */
+      .home-page header nav ul li {
+        width: 4em;
+        float: left; }
+  /* line 91, ../components/sass/_homepage.scss */
+  .home-page .conference-icons {
+    margin: 3em 5%; }
+    /* line 94, ../components/sass/_homepage.scss */
+    .home-page .conference-icons .icon:nth-of-type(1) {
+      width: 31.70732%;
+      float: left;
+      margin-right: 2.43902%; }
+    /* line 95, ../components/sass/_homepage.scss */
+    .home-page .conference-icons .icon:nth-of-type(2) {
+      width: 31.70732%;
+      float: left;
+      margin-right: 2.43902%; }
+    /* line 96, ../components/sass/_homepage.scss */
+    .home-page .conference-icons .icon:nth-of-type(3) {
+      width: 31.70732%;
+      float: right;
+      margin-right: 0; }
+    /* line 98, ../components/sass/_homepage.scss */
+    .home-page .conference-icons img {
+      width: 30%;
+      min-width: 100px; } }
+@media (min-width: 35em) {
+  /* line 108, ../components/sass/_homepage.scss */
+  .home-page header {
+    background-size: 15%; }
+    /* line 111, ../components/sass/_homepage.scss */
+    .home-page header nav ul {
+      width: 20em;
+      padding-left: 4em; }
+      /* line 114, ../components/sass/_homepage.scss */
+      .home-page header nav ul li {
+        width: 3.5em; }
+  /* line 120, ../components/sass/_homepage.scss */
+  .home-page .conference-icons {
+    margin: 3em 10%; }
+    /* line 122, ../components/sass/_homepage.scss */
+    .home-page .conference-icons img {
+      width: 90%; } }
+/* line 3, ../components/sass/_lifeu.scss */
+.lifeu header {
+  background: url(../img/lifeu/lifeu_header.png) 50% 50% no-repeat, #0081c7; }
+  @media (min-width: 35em) {
+    /* line 3, ../components/sass/_lifeu.scss */
+    .lifeu header {
+      background-position: 10% 50%; } }
+/* line 11, ../components/sass/_lifeu.scss */
+.lifeu section {
+  min-height: 30em;
+  background: url(../img/lifeu/textured_paper.png) repeat, #f4f4f4; }
+  /* line 10, ../components/sass/_modules.scss */
+  .lifeu section .desktop-tiles {
+    display: none;
+    overflow: hidden;
+    *zoom: 1; }
+  /* line 15, ../components/sass/_modules.scss */
+  .lifeu section .mobile-tiles {
+    *zoom: 1;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(100, 100, 225, 0.25)), color-stop(11.97605%, rgba(100, 100, 225, 0.25)), color-stop(11.97605%, rgba(0, 0, 0, 0)), color-stop(12.57485%, rgba(0, 0, 0, 0)), color-stop(12.57485%, rgba(100, 100, 225, 0.25)), color-stop(24.5509%, rgba(100, 100, 225, 0.25)), color-stop(24.5509%, rgba(0, 0, 0, 0)), color-stop(25.1497%, rgba(0, 0, 0, 0)), color-stop(25.1497%, rgba(100, 100, 225, 0.25)), color-stop(37.12575%, rgba(100, 100, 225, 0.25)), color-stop(37.12575%, rgba(0, 0, 0, 0)), color-stop(37.72455%, rgba(0, 0, 0, 0)), color-stop(37.72455%, rgba(100, 100, 225, 0.25)), color-stop(49.7006%, rgba(100, 100, 225, 0.25)), color-stop(49.7006%, rgba(0, 0, 0, 0)), color-stop(50.2994%, rgba(0, 0, 0, 0)), color-stop(50.2994%, rgba(100, 100, 225, 0.25)), color-stop(62.27545%, rgba(100, 100, 225, 0.25)), color-stop(62.27545%, rgba(0, 0, 0, 0)), color-stop(62.87425%, rgba(0, 0, 0, 0)), color-stop(62.87425%, rgba(100, 100, 225, 0.25)), color-stop(74.8503%, rgba(100, 100, 225, 0.25)), color-stop(74.8503%, rgba(0, 0, 0, 0)), color-stop(75.4491%, rgba(0, 0, 0, 0)), color-stop(75.4491%, rgba(100, 100, 225, 0.25)), color-stop(87.42515%, rgba(100, 100, 225, 0.25)), color-stop(87.42515%, rgba(0, 0, 0, 0)), color-stop(88.02395%, rgba(0, 0, 0, 0)), color-stop(88.02395%, rgba(100, 100, 225, 0.25)), color-stop(100.0%, rgba(100, 100, 225, 0.25)), color-stop(100.0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 11.97605%, rgba(0, 0, 0, 0) 11.97605%, rgba(0, 0, 0, 0) 12.57485%, rgba(100, 100, 225, 0.25) 12.57485%, rgba(100, 100, 225, 0.25) 24.5509%, rgba(0, 0, 0, 0) 24.5509%, rgba(0, 0, 0, 0) 25.1497%, rgba(100, 100, 225, 0.25) 25.1497%, rgba(100, 100, 225, 0.25) 37.12575%, rgba(0, 0, 0, 0) 37.12575%, rgba(0, 0, 0, 0) 37.72455%, rgba(100, 100, 225, 0.25) 37.72455%, rgba(100, 100, 225, 0.25) 49.7006%, rgba(0, 0, 0, 0) 49.7006%, rgba(0, 0, 0, 0) 50.2994%, rgba(100, 100, 225, 0.25) 50.2994%, rgba(100, 100, 225, 0.25) 62.27545%, rgba(0, 0, 0, 0) 62.27545%, rgba(0, 0, 0, 0) 62.87425%, rgba(100, 100, 225, 0.25) 62.87425%, rgba(100, 100, 225, 0.25) 74.8503%, rgba(0, 0, 0, 0) 74.8503%, rgba(0, 0, 0, 0) 75.4491%, rgba(100, 100, 225, 0.25) 75.4491%, rgba(100, 100, 225, 0.25) 87.42515%, rgba(0, 0, 0, 0) 87.42515%, rgba(0, 0, 0, 0) 88.02395%, rgba(100, 100, 225, 0.25) 88.02395%, rgba(100, 100, 225, 0.25) 100.0%, rgba(0, 0, 0, 0) 100.0%, rgba(0, 0, 0, 0) 100%);
+    background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 11.97605%, rgba(0, 0, 0, 0) 11.97605%, rgba(0, 0, 0, 0) 12.57485%, rgba(100, 100, 225, 0.25) 12.57485%, rgba(100, 100, 225, 0.25) 24.5509%, rgba(0, 0, 0, 0) 24.5509%, rgba(0, 0, 0, 0) 25.1497%, rgba(100, 100, 225, 0.25) 25.1497%, rgba(100, 100, 225, 0.25) 37.12575%, rgba(0, 0, 0, 0) 37.12575%, rgba(0, 0, 0, 0) 37.72455%, rgba(100, 100, 225, 0.25) 37.72455%, rgba(100, 100, 225, 0.25) 49.7006%, rgba(0, 0, 0, 0) 49.7006%, rgba(0, 0, 0, 0) 50.2994%, rgba(100, 100, 225, 0.25) 50.2994%, rgba(100, 100, 225, 0.25) 62.27545%, rgba(0, 0, 0, 0) 62.27545%, rgba(0, 0, 0, 0) 62.87425%, rgba(100, 100, 225, 0.25) 62.87425%, rgba(100, 100, 225, 0.25) 74.8503%, rgba(0, 0, 0, 0) 74.8503%, rgba(0, 0, 0, 0) 75.4491%, rgba(100, 100, 225, 0.25) 75.4491%, rgba(100, 100, 225, 0.25) 87.42515%, rgba(0, 0, 0, 0) 87.42515%, rgba(0, 0, 0, 0) 88.02395%, rgba(100, 100, 225, 0.25) 88.02395%, rgba(100, 100, 225, 0.25) 100.0%, rgba(0, 0, 0, 0) 100.0%, rgba(0, 0, 0, 0) 100%);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 11.97605%, rgba(0, 0, 0, 0) 11.97605%, rgba(0, 0, 0, 0) 12.57485%, rgba(100, 100, 225, 0.25) 12.57485%, rgba(100, 100, 225, 0.25) 24.5509%, rgba(0, 0, 0, 0) 24.5509%, rgba(0, 0, 0, 0) 25.1497%, rgba(100, 100, 225, 0.25) 25.1497%, rgba(100, 100, 225, 0.25) 37.12575%, rgba(0, 0, 0, 0) 37.12575%, rgba(0, 0, 0, 0) 37.72455%, rgba(100, 100, 225, 0.25) 37.72455%, rgba(100, 100, 225, 0.25) 49.7006%, rgba(0, 0, 0, 0) 49.7006%, rgba(0, 0, 0, 0) 50.2994%, rgba(100, 100, 225, 0.25) 50.2994%, rgba(100, 100, 225, 0.25) 62.27545%, rgba(0, 0, 0, 0) 62.27545%, rgba(0, 0, 0, 0) 62.87425%, rgba(100, 100, 225, 0.25) 62.87425%, rgba(100, 100, 225, 0.25) 74.8503%, rgba(0, 0, 0, 0) 74.8503%, rgba(0, 0, 0, 0) 75.4491%, rgba(100, 100, 225, 0.25) 75.4491%, rgba(100, 100, 225, 0.25) 87.42515%, rgba(0, 0, 0, 0) 87.42515%, rgba(0, 0, 0, 0) 88.02395%, rgba(100, 100, 225, 0.25) 88.02395%, rgba(100, 100, 225, 0.25) 100.0%, rgba(0, 0, 0, 0) 100.0%, rgba(0, 0, 0, 0) 100%);
+    background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 11.97605%, rgba(0, 0, 0, 0) 11.97605%, rgba(0, 0, 0, 0) 12.57485%, rgba(100, 100, 225, 0.25) 12.57485%, rgba(100, 100, 225, 0.25) 24.5509%, rgba(0, 0, 0, 0) 24.5509%, rgba(0, 0, 0, 0) 25.1497%, rgba(100, 100, 225, 0.25) 25.1497%, rgba(100, 100, 225, 0.25) 37.12575%, rgba(0, 0, 0, 0) 37.12575%, rgba(0, 0, 0, 0) 37.72455%, rgba(100, 100, 225, 0.25) 37.72455%, rgba(100, 100, 225, 0.25) 49.7006%, rgba(0, 0, 0, 0) 49.7006%, rgba(0, 0, 0, 0) 50.2994%, rgba(100, 100, 225, 0.25) 50.2994%, rgba(100, 100, 225, 0.25) 62.27545%, rgba(0, 0, 0, 0) 62.27545%, rgba(0, 0, 0, 0) 62.87425%, rgba(100, 100, 225, 0.25) 62.87425%, rgba(100, 100, 225, 0.25) 74.8503%, rgba(0, 0, 0, 0) 74.8503%, rgba(0, 0, 0, 0) 75.4491%, rgba(100, 100, 225, 0.25) 75.4491%, rgba(100, 100, 225, 0.25) 87.42515%, rgba(0, 0, 0, 0) 87.42515%, rgba(0, 0, 0, 0) 88.02395%, rgba(100, 100, 225, 0.25) 88.02395%, rgba(100, 100, 225, 0.25) 100.0%, rgba(0, 0, 0, 0) 100.0%, rgba(0, 0, 0, 0) 100%);
+    background-position: left top;
+    -webkit-background-origin: content;
+    -moz-background-origin: content;
+    -ms-background-origin: content-box;
+    -o-background-origin: content-box;
+    background-origin: content-box;
+    -webkit-background-clip: content-box;
+    -moz-background-clip: content-box;
+    background-clip: content-box;
+    padding-top: 5em; }
+    /* line 38, ../../../.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+    .lifeu section .mobile-tiles:after {
+      content: "";
+      display: table;
+      clear: both; }
+    /* line 19, ../components/sass/_modules.scss */
+    .lifeu section .mobile-tiles .left-tiles {
+      padding-left: 12.57485%;
+      width: 49.7006%;
+      float: left;
+      margin-right: 0.5988%;
+      display: inline; }
+    /* line 23, ../components/sass/_modules.scss */
+    .lifeu section .mobile-tiles .right-tiles {
+      padding-right: 12.57485%;
+      width: 49.7006%;
+      float: right;
+      margin-right: 0;
+      *margin-left: -0.25em;
+      display: inline; }
+  @media (min-width: 35em) {
+    /* line 33, ../components/sass/_modules.scss */
+    .lifeu section .desktop-tiles {
+      display: block;
+      padding-left: 10%;
+      padding-right: 10%;
+      margin-left: auto;
+      margin-right: auto;
+      background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(100, 100, 225, 0.25)), color-stop(11.97605%, rgba(100, 100, 225, 0.25)), color-stop(11.97605%, rgba(0, 0, 0, 0)), color-stop(12.57485%, rgba(0, 0, 0, 0)), color-stop(12.57485%, rgba(100, 100, 225, 0.25)), color-stop(24.5509%, rgba(100, 100, 225, 0.25)), color-stop(24.5509%, rgba(0, 0, 0, 0)), color-stop(25.1497%, rgba(0, 0, 0, 0)), color-stop(25.1497%, rgba(100, 100, 225, 0.25)), color-stop(37.12575%, rgba(100, 100, 225, 0.25)), color-stop(37.12575%, rgba(0, 0, 0, 0)), color-stop(37.72455%, rgba(0, 0, 0, 0)), color-stop(37.72455%, rgba(100, 100, 225, 0.25)), color-stop(49.7006%, rgba(100, 100, 225, 0.25)), color-stop(49.7006%, rgba(0, 0, 0, 0)), color-stop(50.2994%, rgba(0, 0, 0, 0)), color-stop(50.2994%, rgba(100, 100, 225, 0.25)), color-stop(62.27545%, rgba(100, 100, 225, 0.25)), color-stop(62.27545%, rgba(0, 0, 0, 0)), color-stop(62.87425%, rgba(0, 0, 0, 0)), color-stop(62.87425%, rgba(100, 100, 225, 0.25)), color-stop(74.8503%, rgba(100, 100, 225, 0.25)), color-stop(74.8503%, rgba(0, 0, 0, 0)), color-stop(75.4491%, rgba(0, 0, 0, 0)), color-stop(75.4491%, rgba(100, 100, 225, 0.25)), color-stop(87.42515%, rgba(100, 100, 225, 0.25)), color-stop(87.42515%, rgba(0, 0, 0, 0)), color-stop(88.02395%, rgba(0, 0, 0, 0)), color-stop(88.02395%, rgba(100, 100, 225, 0.25)), color-stop(100.0%, rgba(100, 100, 225, 0.25)), color-stop(100.0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 11.97605%, rgba(0, 0, 0, 0) 11.97605%, rgba(0, 0, 0, 0) 12.57485%, rgba(100, 100, 225, 0.25) 12.57485%, rgba(100, 100, 225, 0.25) 24.5509%, rgba(0, 0, 0, 0) 24.5509%, rgba(0, 0, 0, 0) 25.1497%, rgba(100, 100, 225, 0.25) 25.1497%, rgba(100, 100, 225, 0.25) 37.12575%, rgba(0, 0, 0, 0) 37.12575%, rgba(0, 0, 0, 0) 37.72455%, rgba(100, 100, 225, 0.25) 37.72455%, rgba(100, 100, 225, 0.25) 49.7006%, rgba(0, 0, 0, 0) 49.7006%, rgba(0, 0, 0, 0) 50.2994%, rgba(100, 100, 225, 0.25) 50.2994%, rgba(100, 100, 225, 0.25) 62.27545%, rgba(0, 0, 0, 0) 62.27545%, rgba(0, 0, 0, 0) 62.87425%, rgba(100, 100, 225, 0.25) 62.87425%, rgba(100, 100, 225, 0.25) 74.8503%, rgba(0, 0, 0, 0) 74.8503%, rgba(0, 0, 0, 0) 75.4491%, rgba(100, 100, 225, 0.25) 75.4491%, rgba(100, 100, 225, 0.25) 87.42515%, rgba(0, 0, 0, 0) 87.42515%, rgba(0, 0, 0, 0) 88.02395%, rgba(100, 100, 225, 0.25) 88.02395%, rgba(100, 100, 225, 0.25) 100.0%, rgba(0, 0, 0, 0) 100.0%, rgba(0, 0, 0, 0) 100%);
+      background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 11.97605%, rgba(0, 0, 0, 0) 11.97605%, rgba(0, 0, 0, 0) 12.57485%, rgba(100, 100, 225, 0.25) 12.57485%, rgba(100, 100, 225, 0.25) 24.5509%, rgba(0, 0, 0, 0) 24.5509%, rgba(0, 0, 0, 0) 25.1497%, rgba(100, 100, 225, 0.25) 25.1497%, rgba(100, 100, 225, 0.25) 37.12575%, rgba(0, 0, 0, 0) 37.12575%, rgba(0, 0, 0, 0) 37.72455%, rgba(100, 100, 225, 0.25) 37.72455%, rgba(100, 100, 225, 0.25) 49.7006%, rgba(0, 0, 0, 0) 49.7006%, rgba(0, 0, 0, 0) 50.2994%, rgba(100, 100, 225, 0.25) 50.2994%, rgba(100, 100, 225, 0.25) 62.27545%, rgba(0, 0, 0, 0) 62.27545%, rgba(0, 0, 0, 0) 62.87425%, rgba(100, 100, 225, 0.25) 62.87425%, rgba(100, 100, 225, 0.25) 74.8503%, rgba(0, 0, 0, 0) 74.8503%, rgba(0, 0, 0, 0) 75.4491%, rgba(100, 100, 225, 0.25) 75.4491%, rgba(100, 100, 225, 0.25) 87.42515%, rgba(0, 0, 0, 0) 87.42515%, rgba(0, 0, 0, 0) 88.02395%, rgba(100, 100, 225, 0.25) 88.02395%, rgba(100, 100, 225, 0.25) 100.0%, rgba(0, 0, 0, 0) 100.0%, rgba(0, 0, 0, 0) 100%);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 11.97605%, rgba(0, 0, 0, 0) 11.97605%, rgba(0, 0, 0, 0) 12.57485%, rgba(100, 100, 225, 0.25) 12.57485%, rgba(100, 100, 225, 0.25) 24.5509%, rgba(0, 0, 0, 0) 24.5509%, rgba(0, 0, 0, 0) 25.1497%, rgba(100, 100, 225, 0.25) 25.1497%, rgba(100, 100, 225, 0.25) 37.12575%, rgba(0, 0, 0, 0) 37.12575%, rgba(0, 0, 0, 0) 37.72455%, rgba(100, 100, 225, 0.25) 37.72455%, rgba(100, 100, 225, 0.25) 49.7006%, rgba(0, 0, 0, 0) 49.7006%, rgba(0, 0, 0, 0) 50.2994%, rgba(100, 100, 225, 0.25) 50.2994%, rgba(100, 100, 225, 0.25) 62.27545%, rgba(0, 0, 0, 0) 62.27545%, rgba(0, 0, 0, 0) 62.87425%, rgba(100, 100, 225, 0.25) 62.87425%, rgba(100, 100, 225, 0.25) 74.8503%, rgba(0, 0, 0, 0) 74.8503%, rgba(0, 0, 0, 0) 75.4491%, rgba(100, 100, 225, 0.25) 75.4491%, rgba(100, 100, 225, 0.25) 87.42515%, rgba(0, 0, 0, 0) 87.42515%, rgba(0, 0, 0, 0) 88.02395%, rgba(100, 100, 225, 0.25) 88.02395%, rgba(100, 100, 225, 0.25) 100.0%, rgba(0, 0, 0, 0) 100.0%, rgba(0, 0, 0, 0) 100%);
+      background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 11.97605%, rgba(0, 0, 0, 0) 11.97605%, rgba(0, 0, 0, 0) 12.57485%, rgba(100, 100, 225, 0.25) 12.57485%, rgba(100, 100, 225, 0.25) 24.5509%, rgba(0, 0, 0, 0) 24.5509%, rgba(0, 0, 0, 0) 25.1497%, rgba(100, 100, 225, 0.25) 25.1497%, rgba(100, 100, 225, 0.25) 37.12575%, rgba(0, 0, 0, 0) 37.12575%, rgba(0, 0, 0, 0) 37.72455%, rgba(100, 100, 225, 0.25) 37.72455%, rgba(100, 100, 225, 0.25) 49.7006%, rgba(0, 0, 0, 0) 49.7006%, rgba(0, 0, 0, 0) 50.2994%, rgba(100, 100, 225, 0.25) 50.2994%, rgba(100, 100, 225, 0.25) 62.27545%, rgba(0, 0, 0, 0) 62.27545%, rgba(0, 0, 0, 0) 62.87425%, rgba(100, 100, 225, 0.25) 62.87425%, rgba(100, 100, 225, 0.25) 74.8503%, rgba(0, 0, 0, 0) 74.8503%, rgba(0, 0, 0, 0) 75.4491%, rgba(100, 100, 225, 0.25) 75.4491%, rgba(100, 100, 225, 0.25) 87.42515%, rgba(0, 0, 0, 0) 87.42515%, rgba(0, 0, 0, 0) 88.02395%, rgba(100, 100, 225, 0.25) 88.02395%, rgba(100, 100, 225, 0.25) 100.0%, rgba(0, 0, 0, 0) 100.0%, rgba(0, 0, 0, 0) 100%);
+      background-position: left top;
+      -webkit-background-origin: content;
+      -moz-background-origin: content;
+      -ms-background-origin: content-box;
+      -o-background-origin: content-box;
+      background-origin: content-box;
+      -webkit-background-clip: content-box;
+      -moz-background-clip: content-box;
+      background-clip: content-box;
+      padding-top: 5em;
+      padding-left: 12.57485%;
+      padding-right: 12.57485%;
+      width: 100%;
+      float: left;
+      margin-right: 0.5988%; }
+      /* line 38, ../../../.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+      .lifeu section .desktop-tiles:after {
+        content: "";
+        display: table;
+        clear: both; } }
+  /* line 17, ../components/sass/_lifeu.scss */
+  .lifeu section .mobile-tiles div div {
+    height: 100%;
+    width: 100%;
+    background: purple; }
+  @media (min-width: 35em) {
+    /* line 16, ../components/sass/_lifeu.scss */
+    .lifeu section .mobile-tiles {
+      display: none; } }
+  /* line 27, ../components/sass/_lifeu.scss */
+  .lifeu section .desktop-tiles div {
+    width: 16.66%;
+    background: purple;
+    float: left; }
+  /* line 33, ../components/sass/_lifeu.scss */
+  .lifeu section img {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 4em 0; }
+/* line 43, ../components/sass/_lifeu.scss */
+.lifeu footer {
+  background: url("../img/home/nationwide_financial_logo.png") 50% 25% no-repeat, #0081c7; }
+  @media (min-width: 35em) {
+    /* line 43, ../components/sass/_lifeu.scss */
+    .lifeu footer {
+      background-position: 37% 50%; } }
+
+/* The Nivo Slider styles */
+/* line 3, ../components/sass/_nivoslider.scss */
+.nivoSlider {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden; }
+
+/* line 9, ../components/sass/_nivoslider.scss */
+.nivoSlider img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  max-width: none; }
+
+/* line 15, ../components/sass/_nivoslider.scss */
+.nivo-main-image {
+  display: block !important;
+  position: relative !important;
+  width: 100% !important; }
+
+/* If an image is wrapped in a link */
+/* line 22, ../components/sass/_nivoslider.scss */
+.nivoSlider a.nivo-imageLink {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  z-index: 6;
+  display: none;
+  background: white;
+  filter: alpha(opacity=0);
+  opacity: 0; }
+
+/* The slices and boxes in the Slider */
+/* line 38, ../components/sass/_nivoslider.scss */
+.nivo-slice {
+  display: block;
+  position: absolute;
+  z-index: 5;
+  height: 100%;
+  top: 0; }
+
+/* line 45, ../components/sass/_nivoslider.scss */
+.nivo-box {
+  display: block;
+  position: absolute;
+  z-index: 5;
+  overflow: hidden; }
+
+/* line 51, ../components/sass/_nivoslider.scss */
+.nivo-box img {
+  display: block; }
+
+/* Caption styles */
+/* line 54, ../components/sass/_nivoslider.scss */
+.nivo-caption {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  background: #000;
+  color: #fff;
+  width: 100%;
+  z-index: 8;
+  padding: 5px 10px;
+  opacity: 0.8;
+  overflow: hidden;
+  display: none;
+  -moz-opacity: 0.8;
+  filter: alpha(opacity=8);
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */ }
+
+/* line 72, ../components/sass/_nivoslider.scss */
+.nivo-caption p {
+  padding: 5px;
+  margin: 0; }
+
+/* line 76, ../components/sass/_nivoslider.scss */
+.nivo-caption a {
+  display: inline !important; }
+
+/* line 79, ../components/sass/_nivoslider.scss */
+.nivo-html-caption {
+  display: none; }
+
+/* Direction nav styles (e.g. Next & Prev) */
+/* line 83, ../components/sass/_nivoslider.scss */
+.nivo-directionNav a {
+  position: absolute;
+  top: 45%;
+  z-index: 9;
+  cursor: pointer; }
+
+/* line 89, ../components/sass/_nivoslider.scss */
+.nivo-prevNav {
+  left: 0px; }
+
+/* line 92, ../components/sass/_nivoslider.scss */
+.nivo-nextNav {
+  right: 0px; }
+
+/* Control nav styles (e.g. 1,2,3...) */
+/* line 96, ../components/sass/_nivoslider.scss */
+.nivo-controlNav {
+  text-align: center;
+  padding: 15px 0; }
+
+/* line 100, ../components/sass/_nivoslider.scss */
+.nivo-controlNav a {
+  cursor: pointer; }
+
+/* line 103, ../components/sass/_nivoslider.scss */
+.nivo-controlNav a.active {
+  font-weight: bold; }
+
+/* Add new theme */
+/* line 109, ../components/sass/_nivoslider.scss */
+.theme-default .nivoSlider {
+  position: relative;
+  background: white url(loading.gif) no-repeat 50% 50%;
+  margin-bottom: 10px;
+  -webkit-box-shadow: 0px 1px 5px 0px #4a4a4a;
+  -moz-box-shadow: 0px 1px 5px 0px #4a4a4a;
+  box-shadow: 0px 1px 5px 0px #4a4a4a; }
+
+/* line 117, ../components/sass/_nivoslider.scss */
+.theme-default .nivoSlider img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: none; }
+
+/* line 123, ../components/sass/_nivoslider.scss */
+.theme-default .nivoSlider a {
+  border: 0;
+  display: block; }
+
+/* line 128, ../components/sass/_nivoslider.scss */
+.theme-default .nivo-controlNav {
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  bottom: 70px;
+  z-index: 99; }
+
+/* line 136, ../components/sass/_nivoslider.scss */
+.theme-default .nivo-controlNav a {
+  display: none; }
+
+@media (min-width: 35em) {
+  /* line 141, ../components/sass/_nivoslider.scss */
+  .theme-default .nivo-controlNav a {
+    display: inline-block;
+    width: 48px;
+    height: 20px;
+    text-indent: -9999px;
+    border: 0; }
+    /* line 149, ../components/sass/_nivoslider.scss */
+    .theme-default .nivo-controlNav a:nth-child(1) {
+      background: url(../img/bullets_1.png) no-repeat; }
+    /* line 150, ../components/sass/_nivoslider.scss */
+    .theme-default .nivo-controlNav a:nth-child(2) {
+      background: url(../img/bullets_2.png) no-repeat; } }
+/* line 155, ../components/sass/_nivoslider.scss */
+.theme-default .nivo-controlNav a.active {
+  display: none; }
+
+/* line 160, ../components/sass/_nivoslider.scss */
+.theme-default .nivo-directionNav a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: url(arrows.png) no-repeat;
+  text-indent: -9999px;
+  border: 0;
+  opacity: 0;
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out; }
+
+/* line 173, ../components/sass/_nivoslider.scss */
+.theme-default:hover .nivo-directionNav a {
+  opacity: 1; }
+
+/* line 174, ../components/sass/_nivoslider.scss */
+.theme-default a.nivo-nextNav {
+  background-position: -30px 0;
+  right: 15px; }
+
+/* line 178, ../components/sass/_nivoslider.scss */
+.theme-default a.nivo-prevNav {
+  left: 15px; }
+
+/* line 182, ../components/sass/_nivoslider.scss */
+.theme-default .nivo-caption {
+  font-family: Helvetica, Arial, sans-serif; }
+
+/* line 185, ../components/sass/_nivoslider.scss */
+.theme-default .nivo-caption a {
+  color: #fff;
+  border-bottom: 1px dotted #fff; }
+
+/* line 189, ../components/sass/_nivoslider.scss */
+.theme-default .nivo-caption a:hover {
+  color: #fff; }
+
+/* line 193, ../components/sass/_nivoslider.scss */
+.theme-default .nivo-controlNav.nivo-thumbs-enabled {
+  width: 100%; }
+
+/* line 196, ../components/sass/_nivoslider.scss */
+.theme-default .nivo-controlNav.nivo-thumbs-enabled a {
+  width: auto;
+  height: auto;
+  background: none;
+  margin-bottom: 5px; }
+
+/* line 202, ../components/sass/_nivoslider.scss */
+.theme-default .nivo-controlNav.nivo-thumbs-enabled img {
+  display: block;
+  width: 120px;
+  height: auto; }
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
 /*
  * Image replacement
  */
-/* line 133, ../components/sass/main.scss */
+/* line 135, ../components/sass/main.scss */
 .ir {
   background-color: transparent;
   border: 0;
@@ -708,7 +1177,7 @@ body {
   /* IE 6/7 fallback */
   *text-indent: -9999px; }
 
-/* line 141, ../components/sass/main.scss */
+/* line 143, ../components/sass/main.scss */
 .ir:before {
   content: "";
   display: block;
@@ -718,7 +1187,7 @@ body {
 /*
  * Hide from both screenreaders and browsers: h5bp.com/u
  */
-/* line 152, ../components/sass/main.scss */
+/* line 154, ../components/sass/main.scss */
 .hidden {
   display: none !important;
   visibility: hidden; }
@@ -726,7 +1195,7 @@ body {
 /*
  * Hide only visually, but have it available for screenreaders: h5bp.com/v
  */
-/* line 161, ../components/sass/main.scss */
+/* line 163, ../components/sass/main.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -741,7 +1210,7 @@ body {
  * Extends the .visuallyhidden class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
  */
-/* line 178, ../components/sass/main.scss */
+/* line 180, ../components/sass/main.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -754,7 +1223,7 @@ body {
 /*
  * Hide visually and from screenreaders, but maintain layout
  */
-/* line 191, ../components/sass/main.scss */
+/* line 193, ../components/sass/main.scss */
 .invisible {
   visibility: hidden; }
 
@@ -769,7 +1238,7 @@ body {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 208, ../components/sass/main.scss */
+/* line 210, ../components/sass/main.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -777,7 +1246,7 @@ body {
   display: table;
   /* 2 */ }
 
-/* line 213, ../components/sass/main.scss */
+/* line 215, ../components/sass/main.scss */
 .clearfix:after {
   clear: both; }
 
@@ -785,7 +1254,7 @@ body {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 222, ../components/sass/main.scss */
+/* line 224, ../components/sass/main.scss */
 .clearfix {
   *zoom: 1; }
 
@@ -803,7 +1272,7 @@ body {
    Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
 @media print {
-  /* line 249, ../components/sass/main.scss */
+  /* line 251, ../components/sass/main.scss */
   * {
     background: transparent !important;
     color: #000 !important;
@@ -811,59 +1280,59 @@ body {
     box-shadow: none !important;
     text-shadow: none !important; }
 
-  /* line 257, ../components/sass/main.scss */
+  /* line 259, ../components/sass/main.scss */
   a,
   a:visited {
     text-decoration: underline; }
 
-  /* line 261, ../components/sass/main.scss */
+  /* line 263, ../components/sass/main.scss */
   a[href]:after {
     content: " (" attr(href) ")"; }
 
-  /* line 265, ../components/sass/main.scss */
+  /* line 267, ../components/sass/main.scss */
   abbr[title]:after {
     content: " (" attr(title) ")"; }
 
   /*
    * Don't show links for images, or javascript/internal links
    */
-  /* line 275, ../components/sass/main.scss */
+  /* line 277, ../components/sass/main.scss */
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: ""; }
 
-  /* line 280, ../components/sass/main.scss */
+  /* line 282, ../components/sass/main.scss */
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid; }
 
-  /* line 285, ../components/sass/main.scss */
+  /* line 287, ../components/sass/main.scss */
   thead {
     display: table-header-group;
     /* h5bp.com/t */ }
 
-  /* line 290, ../components/sass/main.scss */
+  /* line 292, ../components/sass/main.scss */
   tr,
   img {
     page-break-inside: avoid; }
 
-  /* line 294, ../components/sass/main.scss */
+  /* line 296, ../components/sass/main.scss */
   img {
     max-width: 100% !important; }
 
   @page {
     margin: 0.5cm; }
 
-  /* line 304, ../components/sass/main.scss */
+  /* line 306, ../components/sass/main.scss */
   p,
   h2,
   h3 {
     orphans: 3;
     widows: 3; }
 
-  /* line 310, ../components/sass/main.scss */
+  /* line 312, ../components/sass/main.scss */
   h2,
   h3 {
     page-break-after: avoid; } }

@@ -36,12 +36,7 @@
 		}
 	}
 
-	.banner {
-		img {
-			width: 100%;
-			height: auto;
-		}
-	}
+	@include banner;
 
 	.conference-icons {
 		margin-bottom: 3em;

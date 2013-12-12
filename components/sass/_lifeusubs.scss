@@ -1,0 +1,23 @@
+.lifeu .requirements {
+
+	header {
+		height: 15em;
+	}
+
+	@include nav-menu;
+	nav ul {
+			padding: 3em;
+		li {
+			float: left;		
+		}		
+	}
+
+	@include banner;
+	.slider-wrapper {
+		background: url(../img/lifeu/textured_paper.png) repeat, $gray;
+	}
+	
+	
+	@include main-content;
+
+}

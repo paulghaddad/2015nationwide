@@ -11,33 +11,48 @@
 	
 
 	section {
+
 		@include tiles;
 		background: url(../img/lifeu/textured_paper.png) repeat, $gray;
 
-		
+		@include with-grid-settings(4,$column-width,$gutter-width,1em) {
+			.main-content {
+				@include container;
+			}
+		};
+
 		.mobile-tiles{
-			div div {
-				height: 100%;
+			img {
 				width: 100%;
-				background: purple;
+				height: auto;
+				margin: 0;
+				padding: 0;
 			}
 			@include at-breakpoint($beta) {
 				display: none;
 			}
 		}
 
-		.desktop-tiles div {
-			width: 16.66%;
-			background: purple;
-			float: left;
+		.desktop-tiles {
+			div {
+				width: 16.66%;
+				height: auto;
+				background: purple;
+				float: left;
+				position: relative;
+				left: 2px;
+			}
 		}
 
 		img {
-			width: 80%;
+			width: 100%;
 			height: auto;
-			display: block;
-			margin: 0 auto;
-			padding: 4em 0;
+			margin: 0;
+			padding: 0;
+		}
+
+		> img {
+			padding: 2.5em;
 		}
 
 	}

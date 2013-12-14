@@ -6,7 +6,6 @@
 }
 
 @mixin tiles {
-	min-height: 30em;
 	.desktop-tiles {
 		display: none;
 		@include clearfix;
@@ -14,11 +13,12 @@
 	@include with-grid-settings(8,$column-width,0.25em,$grid-padding) {
 	  .mobile-tiles { 
 	  	@include container; 
-	  	@include susy-grid-background;
 	  	padding-top: 5em;
 	  	.left-tiles {
 	  		@include prefix(1);
 	  		@include span-columns(4,8);
+	  		position: relative;
+			left: 2px;
 	  	}
 	  	.right-tiles {
 	  		@include suffix(1);
@@ -33,7 +33,6 @@
 		  .desktop-tiles { 
 		  	display: block;
 		  	@include container; 
-		  	@include susy-grid-background;
 		  	padding-top: 5em;
 	  		@include pad(1,1);
 	  		@include span-columns(8,8);
@@ -68,14 +67,26 @@
 }
 
 @mixin main-content {
-	@include with-grid-settings(4,$column-width,$gutter-width,1em) {
-		.main-content {
-			@include container;
-			h1 {
-				@include span-columns(4 omega, 4);
-			}
+
+	section {
+
+		h1 {
+			color: $blue;
+			font-size: $h1-font-size;
+			text-transform: uppercase;
+
 		}
-	};
+		h2 {
+			color: $blue;
+			font-size: $h2-font-size;
+			margin-top: .5em;			
+		}
+		p {
+			font-size: $p-font-size;
+			line-height: 1.75;
+		}
+
+	}
 }
 
 

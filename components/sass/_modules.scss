@@ -60,6 +60,12 @@
 						color: $gray;
 						text-decoration: none;
 						text-transform: uppercase;
+						&:active, &:hover {
+							text-decoration: underline;
+						}
+					}
+					a[href=""] {
+						text-decoration: underline;
 					}
 				}
 			}
@@ -70,7 +76,7 @@
 	background: url(../img/lifeu/textured_paper.png) repeat, $gray;
 	
 	.main-content-wrapper {
-		padding-bottom: 3em;
+		padding: 1.5em 0 3em 0;
 	}
 
 	h1 {
@@ -94,26 +100,30 @@
 	@include with-grid-settings($columns,$column-width,$gutter-width,$grid-padding) {
 			.main-content-wrapper {
 				@include container;
-			}
-			.slider-wrapper {
-				@include span-columns($columns,$columns);
-				@include pad(1,1);
-				padding-top: 3em;
-			}
-			h1 {
-				@include pre(1);
-				margin-bottom: 1em;
-			}
-			.column-1-3 {
-				@include span-columns(3,$columns);
-				@include pre(1);
-			}
-			.column-2-3 {
-				@include span-columns(3,$columns);
-			}
-			.column-3-3 {
-				@include span-columns(3 omega,$columns);
-				@include post(1);
+				//@include susy-grid-background;
+			
+				.slider-wrapper {
+					@include span-columns($columns,$columns);
+					@include pad(1,1);
+					padding-top: 3em;
+				}
+				.main-section-content {
+					@include clearfix;
+				}
+				h1 {
+					margin-bottom: 1em;
+				}
+				.column-1-3 {
+					@include span-columns(3,$columns);
+					@include pre(1);
+				}
+				.column-2-3 {
+					@include span-columns(3,$columns);
+				}
+				.column-3-3 {
+					@include span-columns(3 omega,$columns);
+					@include post(1);
+				}
 			}
 		}
 }

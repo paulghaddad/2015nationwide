@@ -20,6 +20,7 @@
 	  	width: 80%;
 	  	margin: 0 auto;
 	 	}
+	 	@include main-content-text(11);
 	}
 	
 	
@@ -28,14 +29,29 @@
 
 
  .main-section-content { 
-	padding: 0 1.5em;
+	padding: 0 1em;
+	@include at-breakpoint($beta) {
+		padding: 0 0.5em;
+	}
+
+	h1 {
+		padding: 50px 0 0 4.5em;
+		background: url(../img/lifeu/lifeu_requirements_icon.png) 0 0 no-repeat;
+		display: block;
+		height: 70px;
+	}
+	@include at-breakpoint($beta) {
+		padding: 0 0.5em;
+
+		h1 {
+			margin-left: 9.333%;
+		}
+	}
  }
 
 
 
-	@include at-breakpoint($beta) {
-		@include main-content-text(11);
-	}
+	
 
 	
 

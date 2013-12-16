@@ -590,7 +590,7 @@ table {
 /* line 1, ../components/sass/_base.scss */
 body {
   font-size: 1em;
-  min-width: 19em; }
+  min-width: 20em; }
 
 /* Susy Setup */
 /* line 14, ../../../.rvm/gems/ruby-2.0.0-p0/gems/susy-1.0.9/sass/susy/_grid.scss */
@@ -613,7 +613,7 @@ body {
     clear: both; }
 
 @media (min-width: 25em) {
-  /* line 21, ../components/sass/_grid.scss */
+  /* line 20, ../components/sass/_grid.scss */
   .page {
     padding-left: 0;
     padding-right: 0;
@@ -625,7 +625,7 @@ body {
       display: table;
       clear: both; } }
 @media (min-width: 35em) {
-  /* line 25, ../components/sass/_grid.scss */
+  /* line 24, ../components/sass/_grid.scss */
   .page {
     padding-left: 0;
     padding-right: 0;
@@ -641,23 +641,23 @@ body {
 .header, .lifeu header {
   height: 10.5em; }
 
-/* line 93, ../components/sass/_modules.scss */
+/* line 122, ../components/sass/_modules.scss */
 .footer, .lifeu footer {
   height: 8.5em;
   padding-top: 4.5em; }
-  /* line 97, ../components/sass/_modules.scss */
+  /* line 126, ../components/sass/_modules.scss */
   .footer p, .lifeu footer p {
     text-align: center;
     text-transform: uppercase; }
     @media (min-width: 35em) {
-      /* line 97, ../components/sass/_modules.scss */
+      /* line 126, ../components/sass/_modules.scss */
       .footer p, .lifeu footer p {
         display: block;
         position: relative;
         width: 20%;
         left: 50%;
         bottom: 2em; } }
-    /* line 108, ../components/sass/_modules.scss */
+    /* line 137, ../components/sass/_modules.scss */
     .footer p a, .lifeu footer p a {
       color: #f4f4f4;
       text-decoration: none;
@@ -887,7 +887,6 @@ body {
   .lifeu section .desktop-tiles div {
     width: 16.66%;
     height: auto;
-    background: purple;
     float: left;
     position: relative;
     left: 2px; }
@@ -908,140 +907,134 @@ body {
     .lifeu footer {
       background-position: 37% 50%; } }
 
-/* line 3, ../components/sass/_lifeusubs.scss */
-.lifeu .requirements header {
-  height: 15em; }
-/* line 46, ../components/sass/_modules.scss */
-.lifeu .requirements nav {
-  overflow: hidden;
-  *zoom: 1; }
-  /* line 4, ../components/sass/_mixins.scss */
-  .lifeu .requirements nav ul {
-    padding: 0;
-    margin: 0;
-    width: 100%; }
-    /* line 8, ../components/sass/_mixins.scss */
-    .lifeu .requirements nav ul li {
-      float: left;
-      padding: 0;
-      margin: 0; }
-    /* line 13, ../components/sass/_mixins.scss */
-    .lifeu .requirements nav ul li, .lifeu .requirements nav ul a {
-      display: block;
-      line-height: 2;
-      padding: 0; }
-  /* line 49, ../components/sass/_modules.scss */
-  .lifeu .requirements nav ul {
+/* line 1, ../components/sass/_lifeusubs.scss */
+.lifeu .requirements {
+  background: url(../img/lifeu/textured_paper.png) repeat, #f4f4f4; }
+  /* line 3, ../components/sass/_lifeusubs.scss */
+  .lifeu .requirements header {
+    height: 15em; }
+  /* line 46, ../components/sass/_modules.scss */
+  .lifeu .requirements nav {
     overflow: hidden;
-    *zoom: 1;
-    width: 100%;
-    float: right;
-    padding-left: 45%;
-    margin-top: 8.5em; }
-    /* line 56, ../components/sass/_modules.scss */
+    *zoom: 1; }
+    /* line 4, ../components/sass/_mixins.scss */
+    .lifeu .requirements nav ul {
+      padding: 0;
+      margin: 0;
+      width: 100%; }
+      /* line 8, ../components/sass/_mixins.scss */
+      .lifeu .requirements nav ul li {
+        float: left;
+        padding: 0;
+        margin: 0; }
+      /* line 13, ../components/sass/_mixins.scss */
+      .lifeu .requirements nav ul li, .lifeu .requirements nav ul a {
+        display: block;
+        line-height: 2;
+        padding: 0; }
+    /* line 49, ../components/sass/_modules.scss */
+    .lifeu .requirements nav ul {
+      overflow: hidden;
+      *zoom: 1;
+      width: 100%;
+      float: right;
+      padding-left: 45%;
+      margin-top: 8.5em; }
+      /* line 56, ../components/sass/_modules.scss */
+      .lifeu .requirements nav ul li {
+        padding-left: .75em;
+        font-size: .8em; }
+        /* line 59, ../components/sass/_modules.scss */
+        .lifeu .requirements nav ul li a {
+          color: #f4f4f4;
+          text-decoration: none;
+          text-transform: uppercase; }
+  /* line 8, ../components/sass/_lifeusubs.scss */
+  .lifeu .requirements nav ul {
+    padding: 3em 1.5em; }
+    /* line 10, ../components/sass/_lifeusubs.scss */
     .lifeu .requirements nav ul li {
-      padding-left: .75em;
-      font-size: .8em; }
-      /* line 59, ../components/sass/_modules.scss */
-      .lifeu .requirements nav ul li a {
-        color: #f4f4f4;
-        text-decoration: none;
-        text-transform: uppercase; }
-/* line 8, ../components/sass/_lifeusubs.scss */
-.lifeu .requirements nav ul {
-  padding: 3em; }
-  /* line 10, ../components/sass/_lifeusubs.scss */
-  .lifeu .requirements nav ul li {
-    float: left; }
-/* line 24, ../components/sass/_mixins.scss */
-.lifeu .requirements .banner img {
-  width: 100%;
-  height: auto;
-  margin: 0 auto; }
-@media (min-width: 35em) {
-  /* line 20, ../components/sass/_lifeusubs.scss */
-  .lifeu .requirements .slider-wrapper {
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    margin: 0 auto; }
-    /* line 38, ../../../.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-    .lifeu .requirements .slider-wrapper:after {
-      content: "";
-      display: table;
-      clear: both; } }
-/* line 73, ../components/sass/_modules.scss */
-.lifeu .requirements section h1 {
-  color: #0081c7;
-  font-size: 1.2em;
-  text-transform: uppercase; }
-/* line 79, ../components/sass/_modules.scss */
-.lifeu .requirements section h2 {
-  color: #0081c7;
-  font-size: 0.9em;
-  margin-top: .5em; }
-/* line 84, ../components/sass/_modules.scss */
-.lifeu .requirements section p {
-  font-size: 0.75em;
-  line-height: 1.75; }
-/* line 32, ../components/sass/_lifeusubs.scss */
-.lifeu .requirements section:before {
-  background: url(../img/lifeu/lifeu_requirements_icon.png);
-  width: 71px;
-  height: 71px; }
-@media (min-width: 35em) {
-  /* line 40, ../components/sass/_lifeusubs.scss */
-  .lifeu .requirements .main-content-wrapper {
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(100, 100, 225, 0.25)), color-stop(6.09756%, rgba(100, 100, 225, 0.25)), color-stop(6.09756%, rgba(0, 0, 0, 0)), color-stop(8.53659%, rgba(0, 0, 0, 0)), color-stop(8.53659%, rgba(100, 100, 225, 0.25)), color-stop(14.63415%, rgba(100, 100, 225, 0.25)), color-stop(14.63415%, rgba(0, 0, 0, 0)), color-stop(17.07317%, rgba(0, 0, 0, 0)), color-stop(17.07317%, rgba(100, 100, 225, 0.25)), color-stop(23.17073%, rgba(100, 100, 225, 0.25)), color-stop(23.17073%, rgba(0, 0, 0, 0)), color-stop(25.60976%, rgba(0, 0, 0, 0)), color-stop(25.60976%, rgba(100, 100, 225, 0.25)), color-stop(31.70732%, rgba(100, 100, 225, 0.25)), color-stop(31.70732%, rgba(0, 0, 0, 0)), color-stop(34.14634%, rgba(0, 0, 0, 0)), color-stop(34.14634%, rgba(100, 100, 225, 0.25)), color-stop(40.2439%, rgba(100, 100, 225, 0.25)), color-stop(40.2439%, rgba(0, 0, 0, 0)), color-stop(42.68293%, rgba(0, 0, 0, 0)), color-stop(42.68293%, rgba(100, 100, 225, 0.25)), color-stop(48.78049%, rgba(100, 100, 225, 0.25)), color-stop(48.78049%, rgba(0, 0, 0, 0)), color-stop(51.21951%, rgba(0, 0, 0, 0)), color-stop(51.21951%, rgba(100, 100, 225, 0.25)), color-stop(57.31707%, rgba(100, 100, 225, 0.25)), color-stop(57.31707%, rgba(0, 0, 0, 0)), color-stop(59.7561%, rgba(0, 0, 0, 0)), color-stop(59.7561%, rgba(100, 100, 225, 0.25)), color-stop(65.85366%, rgba(100, 100, 225, 0.25)), color-stop(65.85366%, rgba(0, 0, 0, 0)), color-stop(68.29268%, rgba(0, 0, 0, 0)), color-stop(68.29268%, rgba(100, 100, 225, 0.25)), color-stop(74.39024%, rgba(100, 100, 225, 0.25)), color-stop(74.39024%, rgba(0, 0, 0, 0)), color-stop(76.82927%, rgba(0, 0, 0, 0)), color-stop(76.82927%, rgba(100, 100, 225, 0.25)), color-stop(82.92683%, rgba(100, 100, 225, 0.25)), color-stop(82.92683%, rgba(0, 0, 0, 0)), color-stop(85.36585%, rgba(0, 0, 0, 0)), color-stop(85.36585%, rgba(100, 100, 225, 0.25)), color-stop(91.46341%, rgba(100, 100, 225, 0.25)), color-stop(91.46341%, rgba(0, 0, 0, 0)), color-stop(93.90244%, rgba(0, 0, 0, 0)), color-stop(93.90244%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
-    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 6.09756%, rgba(0, 0, 0, 0) 6.09756%, rgba(0, 0, 0, 0) 8.53659%, rgba(100, 100, 225, 0.25) 8.53659%, rgba(100, 100, 225, 0.25) 14.63415%, rgba(0, 0, 0, 0) 14.63415%, rgba(0, 0, 0, 0) 17.07317%, rgba(100, 100, 225, 0.25) 17.07317%, rgba(100, 100, 225, 0.25) 23.17073%, rgba(0, 0, 0, 0) 23.17073%, rgba(0, 0, 0, 0) 25.60976%, rgba(100, 100, 225, 0.25) 25.60976%, rgba(100, 100, 225, 0.25) 31.70732%, rgba(0, 0, 0, 0) 31.70732%, rgba(0, 0, 0, 0) 34.14634%, rgba(100, 100, 225, 0.25) 34.14634%, rgba(100, 100, 225, 0.25) 40.2439%, rgba(0, 0, 0, 0) 40.2439%, rgba(0, 0, 0, 0) 42.68293%, rgba(100, 100, 225, 0.25) 42.68293%, rgba(100, 100, 225, 0.25) 48.78049%, rgba(0, 0, 0, 0) 48.78049%, rgba(0, 0, 0, 0) 51.21951%, rgba(100, 100, 225, 0.25) 51.21951%, rgba(100, 100, 225, 0.25) 57.31707%, rgba(0, 0, 0, 0) 57.31707%, rgba(0, 0, 0, 0) 59.7561%, rgba(100, 100, 225, 0.25) 59.7561%, rgba(100, 100, 225, 0.25) 65.85366%, rgba(0, 0, 0, 0) 65.85366%, rgba(0, 0, 0, 0) 68.29268%, rgba(100, 100, 225, 0.25) 68.29268%, rgba(100, 100, 225, 0.25) 74.39024%, rgba(0, 0, 0, 0) 74.39024%, rgba(0, 0, 0, 0) 76.82927%, rgba(100, 100, 225, 0.25) 76.82927%, rgba(100, 100, 225, 0.25) 82.92683%, rgba(0, 0, 0, 0) 82.92683%, rgba(0, 0, 0, 0) 85.36585%, rgba(100, 100, 225, 0.25) 85.36585%, rgba(100, 100, 225, 0.25) 91.46341%, rgba(0, 0, 0, 0) 91.46341%, rgba(0, 0, 0, 0) 93.90244%, rgba(100, 100, 225, 0.25) 93.90244%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
-    background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 6.09756%, rgba(0, 0, 0, 0) 6.09756%, rgba(0, 0, 0, 0) 8.53659%, rgba(100, 100, 225, 0.25) 8.53659%, rgba(100, 100, 225, 0.25) 14.63415%, rgba(0, 0, 0, 0) 14.63415%, rgba(0, 0, 0, 0) 17.07317%, rgba(100, 100, 225, 0.25) 17.07317%, rgba(100, 100, 225, 0.25) 23.17073%, rgba(0, 0, 0, 0) 23.17073%, rgba(0, 0, 0, 0) 25.60976%, rgba(100, 100, 225, 0.25) 25.60976%, rgba(100, 100, 225, 0.25) 31.70732%, rgba(0, 0, 0, 0) 31.70732%, rgba(0, 0, 0, 0) 34.14634%, rgba(100, 100, 225, 0.25) 34.14634%, rgba(100, 100, 225, 0.25) 40.2439%, rgba(0, 0, 0, 0) 40.2439%, rgba(0, 0, 0, 0) 42.68293%, rgba(100, 100, 225, 0.25) 42.68293%, rgba(100, 100, 225, 0.25) 48.78049%, rgba(0, 0, 0, 0) 48.78049%, rgba(0, 0, 0, 0) 51.21951%, rgba(100, 100, 225, 0.25) 51.21951%, rgba(100, 100, 225, 0.25) 57.31707%, rgba(0, 0, 0, 0) 57.31707%, rgba(0, 0, 0, 0) 59.7561%, rgba(100, 100, 225, 0.25) 59.7561%, rgba(100, 100, 225, 0.25) 65.85366%, rgba(0, 0, 0, 0) 65.85366%, rgba(0, 0, 0, 0) 68.29268%, rgba(100, 100, 225, 0.25) 68.29268%, rgba(100, 100, 225, 0.25) 74.39024%, rgba(0, 0, 0, 0) 74.39024%, rgba(0, 0, 0, 0) 76.82927%, rgba(100, 100, 225, 0.25) 76.82927%, rgba(100, 100, 225, 0.25) 82.92683%, rgba(0, 0, 0, 0) 82.92683%, rgba(0, 0, 0, 0) 85.36585%, rgba(100, 100, 225, 0.25) 85.36585%, rgba(100, 100, 225, 0.25) 91.46341%, rgba(0, 0, 0, 0) 91.46341%, rgba(0, 0, 0, 0) 93.90244%, rgba(100, 100, 225, 0.25) 93.90244%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
-    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 6.09756%, rgba(0, 0, 0, 0) 6.09756%, rgba(0, 0, 0, 0) 8.53659%, rgba(100, 100, 225, 0.25) 8.53659%, rgba(100, 100, 225, 0.25) 14.63415%, rgba(0, 0, 0, 0) 14.63415%, rgba(0, 0, 0, 0) 17.07317%, rgba(100, 100, 225, 0.25) 17.07317%, rgba(100, 100, 225, 0.25) 23.17073%, rgba(0, 0, 0, 0) 23.17073%, rgba(0, 0, 0, 0) 25.60976%, rgba(100, 100, 225, 0.25) 25.60976%, rgba(100, 100, 225, 0.25) 31.70732%, rgba(0, 0, 0, 0) 31.70732%, rgba(0, 0, 0, 0) 34.14634%, rgba(100, 100, 225, 0.25) 34.14634%, rgba(100, 100, 225, 0.25) 40.2439%, rgba(0, 0, 0, 0) 40.2439%, rgba(0, 0, 0, 0) 42.68293%, rgba(100, 100, 225, 0.25) 42.68293%, rgba(100, 100, 225, 0.25) 48.78049%, rgba(0, 0, 0, 0) 48.78049%, rgba(0, 0, 0, 0) 51.21951%, rgba(100, 100, 225, 0.25) 51.21951%, rgba(100, 100, 225, 0.25) 57.31707%, rgba(0, 0, 0, 0) 57.31707%, rgba(0, 0, 0, 0) 59.7561%, rgba(100, 100, 225, 0.25) 59.7561%, rgba(100, 100, 225, 0.25) 65.85366%, rgba(0, 0, 0, 0) 65.85366%, rgba(0, 0, 0, 0) 68.29268%, rgba(100, 100, 225, 0.25) 68.29268%, rgba(100, 100, 225, 0.25) 74.39024%, rgba(0, 0, 0, 0) 74.39024%, rgba(0, 0, 0, 0) 76.82927%, rgba(100, 100, 225, 0.25) 76.82927%, rgba(100, 100, 225, 0.25) 82.92683%, rgba(0, 0, 0, 0) 82.92683%, rgba(0, 0, 0, 0) 85.36585%, rgba(100, 100, 225, 0.25) 85.36585%, rgba(100, 100, 225, 0.25) 91.46341%, rgba(0, 0, 0, 0) 91.46341%, rgba(0, 0, 0, 0) 93.90244%, rgba(100, 100, 225, 0.25) 93.90244%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
-    background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 6.09756%, rgba(0, 0, 0, 0) 6.09756%, rgba(0, 0, 0, 0) 8.53659%, rgba(100, 100, 225, 0.25) 8.53659%, rgba(100, 100, 225, 0.25) 14.63415%, rgba(0, 0, 0, 0) 14.63415%, rgba(0, 0, 0, 0) 17.07317%, rgba(100, 100, 225, 0.25) 17.07317%, rgba(100, 100, 225, 0.25) 23.17073%, rgba(0, 0, 0, 0) 23.17073%, rgba(0, 0, 0, 0) 25.60976%, rgba(100, 100, 225, 0.25) 25.60976%, rgba(100, 100, 225, 0.25) 31.70732%, rgba(0, 0, 0, 0) 31.70732%, rgba(0, 0, 0, 0) 34.14634%, rgba(100, 100, 225, 0.25) 34.14634%, rgba(100, 100, 225, 0.25) 40.2439%, rgba(0, 0, 0, 0) 40.2439%, rgba(0, 0, 0, 0) 42.68293%, rgba(100, 100, 225, 0.25) 42.68293%, rgba(100, 100, 225, 0.25) 48.78049%, rgba(0, 0, 0, 0) 48.78049%, rgba(0, 0, 0, 0) 51.21951%, rgba(100, 100, 225, 0.25) 51.21951%, rgba(100, 100, 225, 0.25) 57.31707%, rgba(0, 0, 0, 0) 57.31707%, rgba(0, 0, 0, 0) 59.7561%, rgba(100, 100, 225, 0.25) 59.7561%, rgba(100, 100, 225, 0.25) 65.85366%, rgba(0, 0, 0, 0) 65.85366%, rgba(0, 0, 0, 0) 68.29268%, rgba(100, 100, 225, 0.25) 68.29268%, rgba(100, 100, 225, 0.25) 74.39024%, rgba(0, 0, 0, 0) 74.39024%, rgba(0, 0, 0, 0) 76.82927%, rgba(100, 100, 225, 0.25) 76.82927%, rgba(100, 100, 225, 0.25) 82.92683%, rgba(0, 0, 0, 0) 82.92683%, rgba(0, 0, 0, 0) 85.36585%, rgba(100, 100, 225, 0.25) 85.36585%, rgba(100, 100, 225, 0.25) 91.46341%, rgba(0, 0, 0, 0) 91.46341%, rgba(0, 0, 0, 0) 93.90244%, rgba(100, 100, 225, 0.25) 93.90244%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
-    background-position: left top;
-    -webkit-background-origin: content;
-    -moz-background-origin: content;
-    -ms-background-origin: content-box;
-    -o-background-origin: content-box;
-    background-origin: content-box;
-    -webkit-background-clip: content-box;
-    -moz-background-clip: content-box;
-    background-clip: content-box; }
-    /* line 38, ../../../.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-    .lifeu .requirements .main-content-wrapper:after {
-      content: "";
-      display: table;
-      clear: both; }
-  /* line 44, ../components/sass/_lifeusubs.scss */
-  .lifeu .requirements .slider-wrapper {
+      float: left; }
+  /* line 24, ../components/sass/_mixins.scss */
+  .lifeu .requirements .banner img {
     width: 100%;
-    float: left;
-    margin-right: 2.43902%;
-    padding-left: 8.53659%;
-    padding-right: 8.53659%;
-    padding-top: 3em; }
-  /* line 49, ../components/sass/_lifeusubs.scss */
-  .lifeu .requirements .column-1-3 {
-    width: 23.17073%;
-    float: left;
-    margin-right: 2.43902%;
-    margin-left: 8.53659%; }
-  /* line 53, ../components/sass/_lifeusubs.scss */
-  .lifeu .requirements .column-2-3 {
-    width: 23.17073%;
-    float: left;
-    margin-right: 2.43902%; }
-  /* line 56, ../components/sass/_lifeusubs.scss */
-  .lifeu .requirements .column-3-3 {
-    width: 23.17073%;
-    float: right;
-    margin-right: 0;
-    margin-right: 8.53659%; } }
+    height: auto;
+    margin: 0 auto; }
+  @media (min-width: 35em) {
+    /* line 18, ../components/sass/_lifeusubs.scss */
+    .lifeu .requirements .slider-wrapper {
+      padding-left: 0;
+      padding-right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+      margin: 0 auto; }
+      /* line 38, ../../../.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+      .lifeu .requirements .slider-wrapper:after {
+        content: "";
+        display: table;
+        clear: both; } }
+  /* line 72, ../components/sass/_modules.scss */
+  .lifeu .requirements .main-content-wrapper {
+    padding-bottom: 3em; }
+  /* line 76, ../components/sass/_modules.scss */
+  .lifeu .requirements h1 {
+    color: #0081c7;
+    font-size: 1.2em;
+    text-transform: uppercase; }
+  /* line 82, ../components/sass/_modules.scss */
+  .lifeu .requirements h2 {
+    color: #0081c7;
+    font-size: 0.9em;
+    margin-top: .5em; }
+  /* line 87, ../components/sass/_modules.scss */
+  .lifeu .requirements p {
+    font-size: 0.75em;
+    line-height: 1.75; }
+  /* line 30, ../components/sass/_lifeusubs.scss */
+  .lifeu .requirements .main-section-content {
+    padding: 0 1.5em; }
+  @media (min-width: 35em) {
+    /* line 95, ../components/sass/_modules.scss */
+    .lifeu .requirements .main-content-wrapper {
+      padding-left: 0;
+      padding-right: 0;
+      margin-left: auto;
+      margin-right: auto; }
+      /* line 38, ../../../.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+      .lifeu .requirements .main-content-wrapper:after {
+        content: "";
+        display: table;
+        clear: both; }
+    /* line 98, ../components/sass/_modules.scss */
+    .lifeu .requirements .slider-wrapper {
+      width: 100%;
+      float: left;
+      margin-right: 2.66667%;
+      padding-left: 9.33333%;
+      padding-right: 9.33333%;
+      padding-top: 3em; }
+    /* line 103, ../components/sass/_modules.scss */
+    .lifeu .requirements h1 {
+      margin-left: 9.33333%;
+      margin-bottom: 1em; }
+    /* line 107, ../components/sass/_modules.scss */
+    .lifeu .requirements .column-1-3 {
+      width: 25.33333%;
+      float: left;
+      margin-right: 2.66667%;
+      margin-left: 9.33333%; }
+    /* line 111, ../components/sass/_modules.scss */
+    .lifeu .requirements .column-2-3 {
+      width: 25.33333%;
+      float: left;
+      margin-right: 2.66667%; }
+    /* line 114, ../components/sass/_modules.scss */
+    .lifeu .requirements .column-3-3 {
+      width: 25.33333%;
+      float: right;
+      margin-right: 0;
+      margin-right: 9.33333%; } }
 
 /* The Nivo Slider styles */
 /* line 3, ../components/sass/_nivoslider.scss */

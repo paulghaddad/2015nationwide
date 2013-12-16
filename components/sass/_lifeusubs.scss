@@ -6,16 +6,14 @@
 
 	@include nav-menu;
 	nav ul {
-			padding: 3em;
+			padding: 3em 1.5em;
 		li {
 			float: left;		
 		}		
 	}
 
 	@include banner;
-	.slider-wrapper, .nivoSlider {
-		//background: url(../img/lifeu/textured_paper.png) repeat, $gray;
-	}
+
 	@include at-breakpoint($beta) {
 	  .slider-wrapper {
 	  	@include container;
@@ -27,37 +25,16 @@
 	
 	@include main-content;
 
-	section {
 
-		&:before {
-			background: url(../img/lifeu/lifeu_requirements_icon.png);
-			width: 71px;
-			height: 71px;
-		}
-	}
+
+ .main-section-content { 
+	padding: 0 1.5em;
+ }
+
+
+
 	@include at-breakpoint($beta) {
-		@include with-grid-settings(12,$column-width,$gutter-width,$grid-padding) {
-			.main-content-wrapper {
-				@include container;
-				@include susy-grid-background;
-			}
-			.slider-wrapper {
-				@include span-columns(12,12);
-				@include pad(1,1);
-				padding-top: 3em;
-			}
-			.column-1-3 {
-				@include span-columns(3,12);
-				@include pre(1);
-			}
-			.column-2-3 {
-				@include span-columns(3,12);
-			}
-			.column-3-3 {
-				@include span-columns(3 omega,12);
-				@include post(1);
-			}
-		}
+		@include main-content-text(11);
 	}
 
 	

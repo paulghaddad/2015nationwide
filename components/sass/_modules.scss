@@ -67,26 +67,55 @@
 }
 
 @mixin main-content {
+	background: url(../img/lifeu/textured_paper.png) repeat, $gray;
+	
+	.main-content-wrapper {
+		padding-bottom: 3em;
+	}
 
-	section {
-
-		h1 {
-			color: $blue;
-			font-size: $h1-font-size;
-			text-transform: uppercase;
-
-		}
-		h2 {
-			color: $blue;
-			font-size: $h2-font-size;
-			margin-top: .5em;			
-		}
-		p {
-			font-size: $p-font-size;
-			line-height: 1.75;
-		}
+	h1 {
+		color: $blue;
+		font-size: $h1-font-size;
+		text-transform: uppercase;
 
 	}
+	h2 {
+		color: $blue;
+		font-size: $h2-font-size;
+		margin-top: .5em;			
+	}
+	p {
+		font-size: $p-font-size;
+		line-height: 1.75;
+	}
+}
+
+@mixin main-content-text($columns) {
+	@include with-grid-settings($columns,$column-width,$gutter-width,$grid-padding) {
+			.main-content-wrapper {
+				@include container;
+			}
+			.slider-wrapper {
+				@include span-columns($columns,$columns);
+				@include pad(1,1);
+				padding-top: 3em;
+			}
+			h1 {
+				@include pre(1);
+				margin-bottom: 1em;
+			}
+			.column-1-3 {
+				@include span-columns(3,$columns);
+				@include pre(1);
+			}
+			.column-2-3 {
+				@include span-columns(3,$columns);
+			}
+			.column-3-3 {
+				@include span-columns(3 omega,$columns);
+				@include post(1);
+			}
+		}
 }
 
 

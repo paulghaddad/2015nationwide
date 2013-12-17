@@ -1,0 +1,35 @@
+.lifeu .faq {
+	
+	header {
+		background: url(../img/lifeu/lifeu_header.png) 50% 50% no-repeat, $orange-red;
+		@include at-breakpoint($beta) {
+			background-position: 10% 50%;
+		}
+	}
+
+	h2 {
+		color: $orange-red;
+	}
+
+	.main-section-content {
+		h1 {
+			padding: 50px 0 0 4.5em;
+			background: url(../img/lifeu/lifeu_faq_icon.png) 0 0 no-repeat;
+			display: block;
+			height: 70px;
+			color: $orange-red;
+		}
+	}
+
+	footer {
+		background: url("../img/home/nationwide_financial_logo.png") 50% 25% no-repeat, $orange-red;
+		@include at-breakpoint($beta) {
+			background-position: 37% 50%;
+		}
+	}
+
+	@include at-breakpoint($beta) {
+	 	@include main-content-text(10);
+	}
+}
+

@@ -83,6 +83,7 @@
 		color: $blue;
 		font-size: $h1-font-size;
 		text-transform: uppercase;
+		margin-bottom: 1em;
 
 	}
 	h2 {
@@ -90,10 +91,17 @@
 		font-size: $h2-font-size;
 		margin-top: .5em;			
 	}
-	p {
+	p, li {
 		font-size: $p-font-size;
 		line-height: 1.75;
+		span {
+			text-decoration: underline;
+		}
 	}
+	ul {
+		padding-left: 1em;
+	}
+
 }
 
 @mixin main-content-text($columns) {

@@ -140,6 +140,10 @@
 					@include span-columns(4 omega,$columns);
 					@include post(1);
 				}
+				.column-1-1 {
+					@include span-columns(8, $columns);
+					@include squish(1,1);
+				}
 			}
 		}
 }

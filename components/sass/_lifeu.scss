@@ -63,5 +63,8 @@
 		@include at-breakpoint($beta) {
 			background-position: 37% 50%;
 		}
+		a {
+			font-size: .8em;
+		}
 	}
 }

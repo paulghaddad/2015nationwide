@@ -9,6 +9,7 @@
 		background: url("../img/home/nationwide_insurance_logo.png") 10% 18% no-repeat,
 					url("../img/home/nationwide_financial_logo.png") 90% 18% no-repeat,
 					$black;
+		background-size: 35%;
 		nav {
 			@include horizontal_nav_menu(2em);
 			height: 6.5em;
@@ -17,7 +18,7 @@
 				width: 50%;
 				margin: 0 auto;
 				position: relative;
-				top: 4.25em;
+				top: 5em;
 				li {
 					width: 33.33%;
 					padding: 0;
@@ -66,32 +67,27 @@
 	.home-page {
 		header {
 			height: 9em;
-			background: url("../img/home/nationwide_insurance_logo.png") 10% 75% no-repeat,
-						url("../img/home/nationwide_financial_logo.png") 35% 75% no-repeat,
-						$black;
-			background-size: 18%;
-			nav {
-				ul {
-					float: right;
-					padding: 6em 0 0 0;
-					width: 50%;
-					position: static;
-					li {
-						width: 4em;
-						float: left;
-					}
-			}
-			}
+			//nav {
+				//ul {
+					//float: right;
+					//padding: 6em 0 0 0;
+					//width: 50%;
+					//position: static;
+					//li {
+						//width: 4em;
+						//float: left;
+					//}
+				//}
+			//}
 		}
 		.conference-icons {
 			margin: 3em 5%;
 			.icon {
-				&:nth-of-type(1) {@include span-columns(4,12);}
-				&:nth-of-type(2) {@include span-columns(4,12);}
-				&:nth-of-type(3) {@include span-columns(4 omega,12);}
+				&:nth-of-type(1) {@include span-columns(6,12);}
+				&:nth-of-type(2) {@include span-columns(6 omega,12);}
 			}
 			img {
-				width: 30%;
+				width: 50%;
 				min-width: 100px;
 			}
 		}
@@ -101,13 +97,19 @@
 @include at-breakpoint($beta) {
 	.home-page{
 		header {
-			background-size: 15%;
+			background: url("../img/home/nationwide_insurance_logo.png") 10% 75% no-repeat,
+						url("../img/home/nationwide_financial_logo.png") 29% 75% no-repeat,
+						$black;
+			background-size: 14%;
 			nav {
 				ul {
+					float: right;
 					width: 20em;
-					padding-left: 4em;
+					padding: 6em 0 0 4em;
+					position: static;
 					li {
 						width: 3.5em;
+						float: left;
 					}
 				}
 			}
@@ -115,7 +117,7 @@
 		.conference-icons {
 			margin: 3em 10%;
 			img {
-				width: 90%;
+				width: 70%;
 			}
 		}
 	}

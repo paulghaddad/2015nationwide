@@ -643,23 +643,23 @@ body {
 .header, .lifeu header {
   height: 10.5em; }
 
-/* line 152, ../components/sass/_modules.scss */
+/* line 151, ../components/sass/_modules.scss */
 .footer, .lifeu footer {
   height: 8.5em;
   padding-top: 4.5em; }
-  /* line 156, ../components/sass/_modules.scss */
+  /* line 155, ../components/sass/_modules.scss */
   .footer p, .lifeu footer p {
     text-align: center;
     text-transform: uppercase; }
     @media (min-width: 35em) {
-      /* line 156, ../components/sass/_modules.scss */
+      /* line 155, ../components/sass/_modules.scss */
       .footer p, .lifeu footer p {
         display: block;
         position: relative;
         width: 20%;
         left: 50%;
         bottom: 2em; } }
-    /* line 167, ../components/sass/_modules.scss */
+    /* line 166, ../components/sass/_modules.scss */
     .footer p a, .lifeu footer p a {
       color: #f4f4f4;
       text-decoration: none;
@@ -712,7 +712,7 @@ body {
           border-right: 1px solid #f4f4f4;
           text-decoration: none; }
         /* line 32, ../components/sass/_homepage.scss */
-        .home-page header nav ul li:nth-of-type(3) a {
+        .home-page header nav ul li:nth-of-type(2) a {
           border-right: none; }
 /* line 24, ../components/sass/_mixins.scss */
 .home-page .banner img {
@@ -891,14 +891,15 @@ body {
     padding: 2.5em; }
 /* line 60, ../components/sass/_lifeu.scss */
 .lifeu footer {
-  background: url("../img/home/nationwide_financial_logo.png") 50% 25% no-repeat, #0081c7; }
+  background: url("../img/home/nationwide_financial_logo.png") 50% 20% no-repeat, #0081c7;
+  background-size: 20%; }
   @media (min-width: 35em) {
     /* line 60, ../components/sass/_lifeu.scss */
     .lifeu footer {
-      background-position: 37% 50%; } }
-  /* line 66, ../components/sass/_lifeu.scss */
+      background-position: 35% 50%; } }
+  /* line 67, ../components/sass/_lifeu.scss */
   .lifeu footer a {
-    font-size: .8em; }
+    font-size: .9em; }
 
 /* line 1, ../components/sass/_lifeusub.scss */
 .lifeu .requirements, .lifeu .faq, .lifeu .resources, .lifeu .destination, .lifeu .contact {
@@ -973,7 +974,7 @@ body {
         content: "";
         display: table;
         clear: both; }
-    /* line 109, ../components/sass/_modules.scss */
+    /* line 108, ../components/sass/_modules.scss */
     .lifeu .requirements .main-content-wrapper, .lifeu .faq .main-content-wrapper, .lifeu .resources .main-content-wrapper, .lifeu .destination .main-content-wrapper, .lifeu .contact .main-content-wrapper {
       padding-left: 0;
       padding-right: 0;
@@ -984,7 +985,7 @@ body {
         content: "";
         display: table;
         clear: both; }
-      /* line 113, ../components/sass/_modules.scss */
+      /* line 112, ../components/sass/_modules.scss */
       .lifeu .requirements .main-content-wrapper .slider-wrapper, .lifeu .faq .main-content-wrapper .slider-wrapper, .lifeu .resources .main-content-wrapper .slider-wrapper, .lifeu .destination .main-content-wrapper .slider-wrapper, .lifeu .contact .main-content-wrapper .slider-wrapper {
         width: 100%;
         float: left;
@@ -992,42 +993,42 @@ body {
         padding-left: 9.33333%;
         padding-right: 9.33333%;
         padding-top: 3em; }
-      /* line 118, ../components/sass/_modules.scss */
+      /* line 117, ../components/sass/_modules.scss */
       .lifeu .requirements .main-content-wrapper .main-section-content, .lifeu .faq .main-content-wrapper .main-section-content, .lifeu .resources .main-content-wrapper .main-section-content, .lifeu .destination .main-content-wrapper .main-section-content, .lifeu .contact .main-content-wrapper .main-section-content {
         overflow: hidden; }
-      /* line 121, ../components/sass/_modules.scss */
+      /* line 120, ../components/sass/_modules.scss */
       .lifeu .requirements .main-content-wrapper h1, .lifeu .faq .main-content-wrapper h1, .lifeu .resources .main-content-wrapper h1, .lifeu .destination .main-content-wrapper h1, .lifeu .contact .main-content-wrapper h1 {
         margin-bottom: 1em; }
-      /* line 124, ../components/sass/_modules.scss */
+      /* line 123, ../components/sass/_modules.scss */
       .lifeu .requirements .main-content-wrapper .column-1-3, .lifeu .faq .main-content-wrapper .column-1-3, .lifeu .resources .main-content-wrapper .column-1-3, .lifeu .destination .main-content-wrapper .column-1-3, .lifeu .contact .main-content-wrapper .column-1-3 {
         width: 25.33333%;
         float: left;
         margin-right: 2.66667%;
         margin-left: 9.33333%; }
-      /* line 128, ../components/sass/_modules.scss */
+      /* line 127, ../components/sass/_modules.scss */
       .lifeu .requirements .main-content-wrapper .column-2-3, .lifeu .faq .main-content-wrapper .column-2-3, .lifeu .resources .main-content-wrapper .column-2-3, .lifeu .destination .main-content-wrapper .column-2-3, .lifeu .contact .main-content-wrapper .column-2-3 {
         width: 25.33333%;
         float: left;
         margin-right: 2.66667%; }
-      /* line 131, ../components/sass/_modules.scss */
+      /* line 130, ../components/sass/_modules.scss */
       .lifeu .requirements .main-content-wrapper .column-3-3, .lifeu .faq .main-content-wrapper .column-3-3, .lifeu .resources .main-content-wrapper .column-3-3, .lifeu .destination .main-content-wrapper .column-3-3, .lifeu .contact .main-content-wrapper .column-3-3 {
         width: 25.33333%;
         float: right;
         margin-right: 0;
         margin-right: 9.33333%; }
-      /* line 135, ../components/sass/_modules.scss */
+      /* line 134, ../components/sass/_modules.scss */
       .lifeu .requirements .main-content-wrapper .column-1-2, .lifeu .faq .main-content-wrapper .column-1-2, .lifeu .resources .main-content-wrapper .column-1-2, .lifeu .destination .main-content-wrapper .column-1-2, .lifeu .contact .main-content-wrapper .column-1-2 {
         width: 34.66667%;
         float: left;
         margin-right: 2.66667%;
         margin-left: 9.33333%; }
-      /* line 139, ../components/sass/_modules.scss */
+      /* line 138, ../components/sass/_modules.scss */
       .lifeu .requirements .main-content-wrapper .column-2-2, .lifeu .faq .main-content-wrapper .column-2-2, .lifeu .resources .main-content-wrapper .column-2-2, .lifeu .destination .main-content-wrapper .column-2-2, .lifeu .contact .main-content-wrapper .column-2-2 {
         width: 34.66667%;
         float: right;
         margin-right: 0;
         margin-right: 9.33333%; }
-      /* line 143, ../components/sass/_modules.scss */
+      /* line 142, ../components/sass/_modules.scss */
       .lifeu .requirements .main-content-wrapper .column-1-1, .lifeu .faq .main-content-wrapper .column-1-1, .lifeu .resources .main-content-wrapper .column-1-1, .lifeu .destination .main-content-wrapper .column-1-1, .lifeu .contact .main-content-wrapper .column-1-1 {
         width: 72%;
         float: left;
@@ -1043,19 +1044,19 @@ body {
     font-size: 1.2em;
     text-transform: uppercase;
     margin-bottom: 1em; }
-  /* line 89, ../components/sass/_modules.scss */
+  /* line 88, ../components/sass/_modules.scss */
   .lifeu .requirements h2, .lifeu .faq h2, .lifeu .resources h2, .lifeu .destination h2, .lifeu .contact h2 {
     color: #0081c7;
     font-size: 0.9em;
     margin-top: .5em; }
-  /* line 94, ../components/sass/_modules.scss */
+  /* line 93, ../components/sass/_modules.scss */
   .lifeu .requirements p, .lifeu .requirements li, .lifeu .faq p, .lifeu .faq li, .lifeu .resources p, .lifeu .resources li, .lifeu .destination p, .lifeu .destination li, .lifeu .contact p, .lifeu .contact li {
     font-size: 0.75em;
-    line-height: 1.75; }
-    /* line 97, ../components/sass/_modules.scss */
+    line-height: 1.25; }
+    /* line 96, ../components/sass/_modules.scss */
     .lifeu .requirements p span, .lifeu .requirements li span, .lifeu .faq p span, .lifeu .faq li span, .lifeu .resources p span, .lifeu .resources li span, .lifeu .destination p span, .lifeu .destination li span, .lifeu .contact p span, .lifeu .contact li span {
       text-decoration: underline; }
-  /* line 101, ../components/sass/_modules.scss */
+  /* line 100, ../components/sass/_modules.scss */
   .lifeu .requirements ul, .lifeu .faq ul, .lifeu .resources ul, .lifeu .destination ul, .lifeu .contact ul {
     padding-left: 1em; }
   /* line 31, ../components/sass/_lifeusub.scss */
@@ -1078,6 +1079,10 @@ body {
         /* line 46, ../components/sass/_lifeusub.scss */
         .lifeu .requirements .main-section-content h1, .lifeu .faq .main-section-content h1, .lifeu .resources .main-section-content h1, .lifeu .destination .main-section-content h1, .lifeu .contact .main-section-content h1 {
           margin-left: 9.333%; } }
+
+/* line 2, ../components/sass/_lifeurequirements.scss */
+.lifeu .requirements .agent-quals-header {
+  border-bottom: 1px solid #0081c7; }
 
 /* line 3, ../components/sass/_lifeufaq.scss */
 .lifeu .faq header {
@@ -1108,7 +1113,7 @@ body {
     .lifeu .faq footer {
       background-position: 37% 50%; } }
 @media (min-width: 35em) {
-  /* line 109, ../components/sass/_modules.scss */
+  /* line 108, ../components/sass/_modules.scss */
   .lifeu .faq .main-content-wrapper {
     padding-left: 0;
     padding-right: 0;
@@ -1119,7 +1124,7 @@ body {
       content: "";
       display: table;
       clear: both; }
-    /* line 113, ../components/sass/_modules.scss */
+    /* line 112, ../components/sass/_modules.scss */
     .lifeu .faq .main-content-wrapper .slider-wrapper {
       width: 100%;
       float: left;
@@ -1127,42 +1132,42 @@ body {
       padding-left: 10.29412%;
       padding-right: 10.29412%;
       padding-top: 3em; }
-    /* line 118, ../components/sass/_modules.scss */
+    /* line 117, ../components/sass/_modules.scss */
     .lifeu .faq .main-content-wrapper .main-section-content {
       overflow: hidden; }
-    /* line 121, ../components/sass/_modules.scss */
+    /* line 120, ../components/sass/_modules.scss */
     .lifeu .faq .main-content-wrapper h1 {
       margin-bottom: 1em; }
-    /* line 124, ../components/sass/_modules.scss */
+    /* line 123, ../components/sass/_modules.scss */
     .lifeu .faq .main-content-wrapper .column-1-3 {
       width: 27.94118%;
       float: left;
       margin-right: 2.94118%;
       margin-left: 10.29412%; }
-    /* line 128, ../components/sass/_modules.scss */
+    /* line 127, ../components/sass/_modules.scss */
     .lifeu .faq .main-content-wrapper .column-2-3 {
       width: 27.94118%;
       float: left;
       margin-right: 2.94118%; }
-    /* line 131, ../components/sass/_modules.scss */
+    /* line 130, ../components/sass/_modules.scss */
     .lifeu .faq .main-content-wrapper .column-3-3 {
       width: 27.94118%;
       float: right;
       margin-right: 0;
       margin-right: 10.29412%; }
-    /* line 135, ../components/sass/_modules.scss */
+    /* line 134, ../components/sass/_modules.scss */
     .lifeu .faq .main-content-wrapper .column-1-2 {
       width: 38.23529%;
       float: left;
       margin-right: 2.94118%;
       margin-left: 10.29412%; }
-    /* line 139, ../components/sass/_modules.scss */
+    /* line 138, ../components/sass/_modules.scss */
     .lifeu .faq .main-content-wrapper .column-2-2 {
       width: 38.23529%;
       float: right;
       margin-right: 0;
       margin-right: 10.29412%; }
-    /* line 143, ../components/sass/_modules.scss */
+    /* line 142, ../components/sass/_modules.scss */
     .lifeu .faq .main-content-wrapper .column-1-1 {
       width: 79.41176%;
       float: left;
@@ -1199,7 +1204,7 @@ body {
     .lifeu .resources footer {
       background-position: 37% 50%; } }
 @media (min-width: 35em) {
-  /* line 109, ../components/sass/_modules.scss */
+  /* line 108, ../components/sass/_modules.scss */
   .lifeu .resources .main-content-wrapper {
     padding-left: 0;
     padding-right: 0;
@@ -1210,7 +1215,7 @@ body {
       content: "";
       display: table;
       clear: both; }
-    /* line 113, ../components/sass/_modules.scss */
+    /* line 112, ../components/sass/_modules.scss */
     .lifeu .resources .main-content-wrapper .slider-wrapper {
       width: 100%;
       float: left;
@@ -1218,42 +1223,42 @@ body {
       padding-left: 10.29412%;
       padding-right: 10.29412%;
       padding-top: 3em; }
-    /* line 118, ../components/sass/_modules.scss */
+    /* line 117, ../components/sass/_modules.scss */
     .lifeu .resources .main-content-wrapper .main-section-content {
       overflow: hidden; }
-    /* line 121, ../components/sass/_modules.scss */
+    /* line 120, ../components/sass/_modules.scss */
     .lifeu .resources .main-content-wrapper h1 {
       margin-bottom: 1em; }
-    /* line 124, ../components/sass/_modules.scss */
+    /* line 123, ../components/sass/_modules.scss */
     .lifeu .resources .main-content-wrapper .column-1-3 {
       width: 27.94118%;
       float: left;
       margin-right: 2.94118%;
       margin-left: 10.29412%; }
-    /* line 128, ../components/sass/_modules.scss */
+    /* line 127, ../components/sass/_modules.scss */
     .lifeu .resources .main-content-wrapper .column-2-3 {
       width: 27.94118%;
       float: left;
       margin-right: 2.94118%; }
-    /* line 131, ../components/sass/_modules.scss */
+    /* line 130, ../components/sass/_modules.scss */
     .lifeu .resources .main-content-wrapper .column-3-3 {
       width: 27.94118%;
       float: right;
       margin-right: 0;
       margin-right: 10.29412%; }
-    /* line 135, ../components/sass/_modules.scss */
+    /* line 134, ../components/sass/_modules.scss */
     .lifeu .resources .main-content-wrapper .column-1-2 {
       width: 38.23529%;
       float: left;
       margin-right: 2.94118%;
       margin-left: 10.29412%; }
-    /* line 139, ../components/sass/_modules.scss */
+    /* line 138, ../components/sass/_modules.scss */
     .lifeu .resources .main-content-wrapper .column-2-2 {
       width: 38.23529%;
       float: right;
       margin-right: 0;
       margin-right: 10.29412%; }
-    /* line 143, ../components/sass/_modules.scss */
+    /* line 142, ../components/sass/_modules.scss */
     .lifeu .resources .main-content-wrapper .column-1-1 {
       width: 79.41176%;
       float: left;
@@ -1290,7 +1295,7 @@ body {
     .lifeu .destination footer {
       background-position: 37% 50%; } }
 @media (min-width: 35em) {
-  /* line 109, ../components/sass/_modules.scss */
+  /* line 108, ../components/sass/_modules.scss */
   .lifeu .destination .main-content-wrapper {
     padding-left: 0;
     padding-right: 0;
@@ -1301,7 +1306,7 @@ body {
       content: "";
       display: table;
       clear: both; }
-    /* line 113, ../components/sass/_modules.scss */
+    /* line 112, ../components/sass/_modules.scss */
     .lifeu .destination .main-content-wrapper .slider-wrapper {
       width: 100%;
       float: left;
@@ -1309,42 +1314,42 @@ body {
       padding-left: 10.29412%;
       padding-right: 10.29412%;
       padding-top: 3em; }
-    /* line 118, ../components/sass/_modules.scss */
+    /* line 117, ../components/sass/_modules.scss */
     .lifeu .destination .main-content-wrapper .main-section-content {
       overflow: hidden; }
-    /* line 121, ../components/sass/_modules.scss */
+    /* line 120, ../components/sass/_modules.scss */
     .lifeu .destination .main-content-wrapper h1 {
       margin-bottom: 1em; }
-    /* line 124, ../components/sass/_modules.scss */
+    /* line 123, ../components/sass/_modules.scss */
     .lifeu .destination .main-content-wrapper .column-1-3 {
       width: 27.94118%;
       float: left;
       margin-right: 2.94118%;
       margin-left: 10.29412%; }
-    /* line 128, ../components/sass/_modules.scss */
+    /* line 127, ../components/sass/_modules.scss */
     .lifeu .destination .main-content-wrapper .column-2-3 {
       width: 27.94118%;
       float: left;
       margin-right: 2.94118%; }
-    /* line 131, ../components/sass/_modules.scss */
+    /* line 130, ../components/sass/_modules.scss */
     .lifeu .destination .main-content-wrapper .column-3-3 {
       width: 27.94118%;
       float: right;
       margin-right: 0;
       margin-right: 10.29412%; }
-    /* line 135, ../components/sass/_modules.scss */
+    /* line 134, ../components/sass/_modules.scss */
     .lifeu .destination .main-content-wrapper .column-1-2 {
       width: 38.23529%;
       float: left;
       margin-right: 2.94118%;
       margin-left: 10.29412%; }
-    /* line 139, ../components/sass/_modules.scss */
+    /* line 138, ../components/sass/_modules.scss */
     .lifeu .destination .main-content-wrapper .column-2-2 {
       width: 38.23529%;
       float: right;
       margin-right: 0;
       margin-right: 10.29412%; }
-    /* line 143, ../components/sass/_modules.scss */
+    /* line 142, ../components/sass/_modules.scss */
     .lifeu .destination .main-content-wrapper .column-1-1 {
       width: 79.41176%;
       float: left;
@@ -1381,7 +1386,7 @@ body {
     .lifeu .contact footer {
       background-position: 37% 50%; } }
 @media (min-width: 35em) {
-  /* line 109, ../components/sass/_modules.scss */
+  /* line 108, ../components/sass/_modules.scss */
   .lifeu .contact .main-content-wrapper {
     padding-left: 0;
     padding-right: 0;
@@ -1392,7 +1397,7 @@ body {
       content: "";
       display: table;
       clear: both; }
-    /* line 113, ../components/sass/_modules.scss */
+    /* line 112, ../components/sass/_modules.scss */
     .lifeu .contact .main-content-wrapper .slider-wrapper {
       width: 100%;
       float: left;
@@ -1400,42 +1405,42 @@ body {
       padding-left: 10.29412%;
       padding-right: 10.29412%;
       padding-top: 3em; }
-    /* line 118, ../components/sass/_modules.scss */
+    /* line 117, ../components/sass/_modules.scss */
     .lifeu .contact .main-content-wrapper .main-section-content {
       overflow: hidden; }
-    /* line 121, ../components/sass/_modules.scss */
+    /* line 120, ../components/sass/_modules.scss */
     .lifeu .contact .main-content-wrapper h1 {
       margin-bottom: 1em; }
-    /* line 124, ../components/sass/_modules.scss */
+    /* line 123, ../components/sass/_modules.scss */
     .lifeu .contact .main-content-wrapper .column-1-3 {
       width: 27.94118%;
       float: left;
       margin-right: 2.94118%;
       margin-left: 10.29412%; }
-    /* line 128, ../components/sass/_modules.scss */
+    /* line 127, ../components/sass/_modules.scss */
     .lifeu .contact .main-content-wrapper .column-2-3 {
       width: 27.94118%;
       float: left;
       margin-right: 2.94118%; }
-    /* line 131, ../components/sass/_modules.scss */
+    /* line 130, ../components/sass/_modules.scss */
     .lifeu .contact .main-content-wrapper .column-3-3 {
       width: 27.94118%;
       float: right;
       margin-right: 0;
       margin-right: 10.29412%; }
-    /* line 135, ../components/sass/_modules.scss */
+    /* line 134, ../components/sass/_modules.scss */
     .lifeu .contact .main-content-wrapper .column-1-2 {
       width: 38.23529%;
       float: left;
       margin-right: 2.94118%;
       margin-left: 10.29412%; }
-    /* line 139, ../components/sass/_modules.scss */
+    /* line 138, ../components/sass/_modules.scss */
     .lifeu .contact .main-content-wrapper .column-2-2 {
       width: 38.23529%;
       float: right;
       margin-right: 0;
       margin-right: 10.29412%; }
-    /* line 143, ../components/sass/_modules.scss */
+    /* line 142, ../components/sass/_modules.scss */
     .lifeu .contact .main-content-wrapper .column-1-1 {
       width: 79.41176%;
       float: left;
@@ -1682,7 +1687,7 @@ body {
 /*
  * Image replacement
  */
-/* line 131, ../components/sass/main.scss */
+/* line 132, ../components/sass/main.scss */
 .ir {
   background-color: transparent;
   border: 0;
@@ -1690,7 +1695,7 @@ body {
   /* IE 6/7 fallback */
   *text-indent: -9999px; }
 
-/* line 139, ../components/sass/main.scss */
+/* line 140, ../components/sass/main.scss */
 .ir:before {
   content: "";
   display: block;
@@ -1700,7 +1705,7 @@ body {
 /*
  * Hide from both screenreaders and browsers: h5bp.com/u
  */
-/* line 150, ../components/sass/main.scss */
+/* line 151, ../components/sass/main.scss */
 .hidden {
   display: none !important;
   visibility: hidden; }
@@ -1708,7 +1713,7 @@ body {
 /*
  * Hide only visually, but have it available for screenreaders: h5bp.com/v
  */
-/* line 159, ../components/sass/main.scss */
+/* line 160, ../components/sass/main.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -1723,7 +1728,7 @@ body {
  * Extends the .visuallyhidden class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
  */
-/* line 176, ../components/sass/main.scss */
+/* line 177, ../components/sass/main.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -1736,7 +1741,7 @@ body {
 /*
  * Hide visually and from screenreaders, but maintain layout
  */
-/* line 189, ../components/sass/main.scss */
+/* line 190, ../components/sass/main.scss */
 .invisible {
   visibility: hidden; }
 
@@ -1751,7 +1756,7 @@ body {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 206, ../components/sass/main.scss */
+/* line 207, ../components/sass/main.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -1759,7 +1764,7 @@ body {
   display: table;
   /* 2 */ }
 
-/* line 211, ../components/sass/main.scss */
+/* line 212, ../components/sass/main.scss */
 .clearfix:after {
   clear: both; }
 
@@ -1767,7 +1772,7 @@ body {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 220, ../components/sass/main.scss */
+/* line 221, ../components/sass/main.scss */
 .clearfix {
   *zoom: 1; }
 
@@ -1785,7 +1790,7 @@ body {
    Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
 @media print {
-  /* line 247, ../components/sass/main.scss */
+  /* line 248, ../components/sass/main.scss */
   * {
     background: transparent !important;
     color: #000 !important;
@@ -1793,59 +1798,59 @@ body {
     box-shadow: none !important;
     text-shadow: none !important; }
 
-  /* line 255, ../components/sass/main.scss */
+  /* line 256, ../components/sass/main.scss */
   a,
   a:visited {
     text-decoration: underline; }
 
-  /* line 259, ../components/sass/main.scss */
+  /* line 260, ../components/sass/main.scss */
   a[href]:after {
     content: " (" attr(href) ")"; }
 
-  /* line 263, ../components/sass/main.scss */
+  /* line 264, ../components/sass/main.scss */
   abbr[title]:after {
     content: " (" attr(title) ")"; }
 
   /*
    * Don't show links for images, or javascript/internal links
    */
-  /* line 273, ../components/sass/main.scss */
+  /* line 274, ../components/sass/main.scss */
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: ""; }
 
-  /* line 278, ../components/sass/main.scss */
+  /* line 279, ../components/sass/main.scss */
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid; }
 
-  /* line 283, ../components/sass/main.scss */
+  /* line 284, ../components/sass/main.scss */
   thead {
     display: table-header-group;
     /* h5bp.com/t */ }
 
-  /* line 288, ../components/sass/main.scss */
+  /* line 289, ../components/sass/main.scss */
   tr,
   img {
     page-break-inside: avoid; }
 
-  /* line 292, ../components/sass/main.scss */
+  /* line 293, ../components/sass/main.scss */
   img {
     max-width: 100% !important; }
 
   @page {
     margin: 0.5cm; }
 
-  /* line 302, ../components/sass/main.scss */
+  /* line 303, ../components/sass/main.scss */
   p,
   h2,
   h3 {
     orphans: 3;
     widows: 3; }
 
-  /* line 308, ../components/sass/main.scss */
+  /* line 309, ../components/sass/main.scss */
   h2,
   h3 {
     page-break-after: avoid; } }

@@ -84,7 +84,6 @@
 		font-size: $h1-font-size;
 		text-transform: uppercase;
 		margin-bottom: 1em;
-
 	}
 	h2 {
 		color: $blue;
@@ -93,7 +92,7 @@
 	}
 	p, li {
 		font-size: $p-font-size;
-		line-height: 1.75;
+		line-height: 1.25;
 		span {
 			text-decoration: underline;
 		}

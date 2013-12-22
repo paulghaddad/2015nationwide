@@ -59,12 +59,13 @@
 
 	footer {
 		@extend .footer;
-		background: url("../img/home/nationwide_financial_logo.png") 50% 25% no-repeat, $blue;
+		background: url("../img/home/nationwide_financial_logo.png") 50% 20% no-repeat, $blue;
+		background-size: 20%;
 		@include at-breakpoint($beta) {
-			background-position: 37% 50%;
+			background-position: 35% 50%;
 		}
 		a {
-			font-size: .8em;
+			font-size: .9em;
 		}
 	}
 }

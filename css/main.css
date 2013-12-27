@@ -591,7 +591,9 @@ table {
 body {
   font-size: 1em;
   min-width: 20em;
-  font-family: "proxima-nova",sans-serif; }
+  max-width: 1210px;
+  font-family: "proxima-nova",sans-serif;
+  margin: 0 auto; }
 
 /* Links */
 /* Susy Setup */
@@ -645,7 +647,7 @@ body {
 
 /* line 151, ../components/sass/_modules.scss */
 .footer, .lifeu footer {
-  height: 8.5em;
+  height: 18.5em;
   padding-top: 4.5em; }
   /* line 155, ../components/sass/_modules.scss */
   .footer p, .lifeu footer p {
@@ -880,24 +882,27 @@ body {
     float: left;
     position: relative;
     left: 2px; }
-  /* line 47, ../components/sass/_lifeu.scss */
+  /* line 45, ../components/sass/_lifeu.scss */
+  .lifeu section .desktop-tiles .tile {
+    background: url("../img/lifeu/homepage_tile_10_hover.png") no-repeat; }
+  /* line 51, ../components/sass/_lifeu.scss */
   .lifeu section img {
     width: 100%;
     height: auto;
     margin: 0;
     padding: 0; }
-  /* line 54, ../components/sass/_lifeu.scss */
+  /* line 58, ../components/sass/_lifeu.scss */
   .lifeu section > img {
     padding: 2.5em; }
-/* line 60, ../components/sass/_lifeu.scss */
+/* line 64, ../components/sass/_lifeu.scss */
 .lifeu footer {
   background: url("../img/home/nationwide_financial_logo.png") 50% 20% no-repeat, #0081c7;
   background-size: 20%; }
   @media (min-width: 35em) {
-    /* line 60, ../components/sass/_lifeu.scss */
+    /* line 64, ../components/sass/_lifeu.scss */
     .lifeu footer {
-      background-position: 35% 50%; } }
-  /* line 67, ../components/sass/_lifeu.scss */
+      background-position: 35% 17%; } }
+  /* line 71, ../components/sass/_lifeu.scss */
   .lifeu footer a {
     font-size: .9em; }
 

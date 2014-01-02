@@ -648,7 +648,7 @@ body {
 /* line 151, ../components/sass/_modules.scss */
 .footer, .lifeu footer {
   height: 18.5em;
-  padding-top: 4.5em; }
+  padding-top: 6em; }
   /* line 155, ../components/sass/_modules.scss */
   .footer p, .lifeu footer p {
     text-align: center;
@@ -664,8 +664,7 @@ body {
     /* line 166, ../components/sass/_modules.scss */
     .footer p a, .lifeu footer p a {
       color: #f4f4f4;
-      text-decoration: none;
-      font-size: 1em; }
+      text-decoration: none; }
 
 /* line 2, ../components/sass/_homepage.scss */
 .home-page body {
@@ -896,13 +895,12 @@ body {
     padding: 2.5em; }
 /* line 64, ../components/sass/_lifeu.scss */
 .lifeu footer {
-  background: url("../img/home/nationwide_financial_logo.png") 50% 20% no-repeat, #0081c7;
-  background-size: 20%; }
+  background: url("../img/home/nationwide_financial_logo.png") 50% 20% no-repeat, #0081c7; }
   @media (min-width: 35em) {
     /* line 64, ../components/sass/_lifeu.scss */
     .lifeu footer {
       background-position: 35% 17%; } }
-  /* line 71, ../components/sass/_lifeu.scss */
+  /* line 70, ../components/sass/_lifeu.scss */
   .lifeu footer a {
     font-size: .9em; }
 
@@ -1087,7 +1085,11 @@ body {
 
 /* line 2, ../components/sass/_lifeurequirements.scss */
 .lifeu .requirements .agent-quals-header {
-  border-bottom: 1px solid #0081c7; }
+  border-bottom: 1px solid #0081c7;
+  font-size: 1.1em; }
+/* line 8, ../components/sass/_lifeurequirements.scss */
+.lifeu .requirements footer a {
+  font-size: 1.2em; }
 
 /* line 3, ../components/sass/_lifeufaq.scss */
 .lifeu .faq header {
@@ -1116,7 +1118,10 @@ body {
   @media (min-width: 35em) {
     /* line 27, ../components/sass/_lifeufaq.scss */
     .lifeu .faq footer {
-      background-position: 37% 50%; } }
+      background-position: 37% 17%; } }
+  /* line 32, ../components/sass/_lifeufaq.scss */
+  .lifeu .faq footer a {
+    font-size: 1.2em; }
 @media (min-width: 35em) {
   /* line 108, ../components/sass/_modules.scss */
   .lifeu .faq .main-content-wrapper {
@@ -1207,7 +1212,10 @@ body {
   @media (min-width: 35em) {
     /* line 27, ../components/sass/_lifeuresources.scss */
     .lifeu .resources footer {
-      background-position: 37% 50%; } }
+      background-position: 37% 17%; } }
+  /* line 32, ../components/sass/_lifeuresources.scss */
+  .lifeu .resources footer a {
+    font-size: 1.2em; }
 @media (min-width: 35em) {
   /* line 108, ../components/sass/_modules.scss */
   .lifeu .resources .main-content-wrapper {
@@ -1293,12 +1301,19 @@ body {
     .lifeu .destination .main-section-content h1 {
       margin-left: 10.2%; } }
 /* line 27, ../components/sass/_lifeudestination.scss */
+.lifeu .destination .aw-widget-current {
+  padding-top: 2em;
+  width: 50%; }
+/* line 32, ../components/sass/_lifeudestination.scss */
 .lifeu .destination footer {
   background: url("../img/home/nationwide_financial_logo.png") 50% 25% no-repeat, #676d74; }
   @media (min-width: 35em) {
-    /* line 27, ../components/sass/_lifeudestination.scss */
+    /* line 32, ../components/sass/_lifeudestination.scss */
     .lifeu .destination footer {
-      background-position: 37% 50%; } }
+      background-position: 37% 17%; } }
+  /* line 37, ../components/sass/_lifeudestination.scss */
+  .lifeu .destination footer a {
+    font-size: 1.2em; }
 @media (min-width: 35em) {
   /* line 108, ../components/sass/_modules.scss */
   .lifeu .destination .main-content-wrapper {
@@ -1389,7 +1404,10 @@ body {
   @media (min-width: 35em) {
     /* line 27, ../components/sass/_lifeucontact.scss */
     .lifeu .contact footer {
-      background-position: 37% 50%; } }
+      background-position: 37% 17%; } }
+  /* line 32, ../components/sass/_lifeucontact.scss */
+  .lifeu .contact footer a {
+    font-size: 1.2em; }
 @media (min-width: 35em) {
   /* line 108, ../components/sass/_modules.scss */
   .lifeu .contact .main-content-wrapper {

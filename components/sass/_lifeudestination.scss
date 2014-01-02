@@ -22,12 +22,20 @@
 				margin-left: 10.2%;
 			}
 		}
+	} 
+
+	.aw-widget-current {
+		padding-top: 2em;
+		width: 50%;
 	}
 
 	footer {
 		background: url("../img/home/nationwide_financial_logo.png") 50% 25% no-repeat, $dark-gray;
 		@include at-breakpoint($beta) {
-			background-position: 37% 50%;
+			background-position: 37% 17%;
+		}
+		a {
+			font-size: 1.2em;
 		}
 	}
 

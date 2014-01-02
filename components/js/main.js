@@ -7,3 +7,5 @@ $(function () {
         $(this).attr('src', $(this).attr('src').replace(/\.jpg/, '-on.jpg') );
     });
 });
+
+

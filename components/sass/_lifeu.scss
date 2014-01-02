@@ -64,7 +64,6 @@
 	footer {
 		@extend .footer;
 		background: url("../img/home/nationwide_financial_logo.png") 50% 20% no-repeat, $blue;
-		background-size: 20%;
 		@include at-breakpoint($beta) {
 			background-position: 35% 17%;
 		}

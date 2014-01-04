@@ -648,7 +648,7 @@ body {
 /* line 151, ../components/sass/_modules.scss */
 .footer, .lifeu footer {
   height: 18.5em;
-  padding-top: 6em; }
+  padding-top: 7em; }
   /* line 155, ../components/sass/_modules.scss */
   .footer p, .lifeu footer p {
     text-align: center;
@@ -660,7 +660,7 @@ body {
         position: relative;
         width: 20%;
         left: 50%;
-        bottom: 2em; } }
+        bottom: 5em; } }
     /* line 166, ../components/sass/_modules.scss */
     .footer p a, .lifeu footer p a {
       color: #f4f4f4;

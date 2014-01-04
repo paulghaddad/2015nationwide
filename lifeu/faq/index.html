@@ -13,7 +13,7 @@
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
         <link rel="stylesheet" href="../../css/main.css">
-        <script src="../../js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="../../js/vendor/modernizr-2.7.1.min.js"></script>
 
         <script type="text/javascript" src="//use.typekit.net/zmc1cyl.js"></script>
         <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
@@ -104,6 +104,22 @@
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="../../js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+
+        <script>
+
+            //use the modernizr loader to load up external scripts. This will load the scripts asyncronysly, but the order listed matters.  Although it will load all scripts in parallel, it will execute them in the order listed.
+
+            Modernizr.load([
+            {
+                //test for media query support; if not, load respond.js
+                test : Modernizr.mq('only all'),
+                //if not, load the respond.js file
+                nope : '../../js/vendor/respond.min.js'
+            }
+            ]);
+            
+        </script>
+
         <script src="../../js/script.js"></script>
 
         <script type="text/javascript">

@@ -1,5 +1,12 @@
 .lifeu {
 
+	.home {
+		@include at-breakpoint($beta) {
+			min-width: 1100px;
+			max-width: 1150px;
+		}
+	}
+
 	header {
 		@extend .header;
 		background: $blue;
@@ -39,16 +46,50 @@
 
 		.desktop-tiles {
 			div {
-				width: 16.66%;
-				height: auto;
+				//width: 16.66%;
+				//height: auto;
+				width: 128px;
+				height: 128px;
 				float: left;
 				position: relative;
 				left: 2px;
 			}
 
-			.tile {
-				background: url("../img/lifeu/homepage_tile_10_hover.png") no-repeat;
+			.requirements-tile-hover {
+				background: url("../img/lifeu/homepage_tile_10.png") no-repeat;
+				&:hover {
+					background: url("../img/lifeu/homepage_tile_10_hover.png") no-repeat;
+				}
 			}
+
+			.faq-tile-hover {
+				background: url("../img/lifeu/homepage_tile_21.png") no-repeat;
+				&:hover {
+					background: url("../img/lifeu/homepage_tile_21_hover.png") no-repeat;
+				}
+			}
+
+			.resources-tile-hover {
+				background: url("../img/lifeu/homepage_tile_23.png") no-repeat;
+				&:hover {
+					background: url("../img/lifeu/homepage_tile_23_hover.png") no-repeat;
+				}				
+			}
+
+			.destination-tile-hover {
+				background: url("../img/lifeu/homepage_tile_27.png") no-repeat;
+				&:hover {
+					background: url("../img/lifeu/homepage_tile_27_hover.png") no-repeat;
+				}				
+			}
+
+			.contact-tile-hover {
+				background: url("../img/lifeu/homepage_tile_28.png") no-repeat;
+				&:hover {
+					background: url("../img/lifeu/homepage_tile_28_hover.png") no-repeat;
+				}				
+			}
+
 		}
 
 

@@ -1,9 +1,12 @@
 .lifeu .resources {
 	
 	header {
-		background: url(../img/lifeu/lifeu_header.png) 50% 50% no-repeat, $teal;
-		@include at-breakpoint($beta) {
-			background-position: 10% 50%;
+		background: $teal;
+		nav {
+			background: url(../img/lifeu/lifeu_header.png) 50% 50% no-repeat;
+			@include at-breakpoint($beta) {
+				background-position: 0 50%;
+			}
 		}
 	}
 

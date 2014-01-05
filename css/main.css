@@ -790,12 +790,16 @@ body {
       width: 70%; } }
 /* line 3, ../components/sass/_lifeu.scss */
 .lifeu header {
-  background: url(../img/lifeu/lifeu_header.png) 50% 50% no-repeat, #0081c7; }
-  @media (min-width: 35em) {
-    /* line 3, ../components/sass/_lifeu.scss */
-    .lifeu header {
-      background-position: 10% 50%; } }
-/* line 13, ../components/sass/_lifeu.scss */
+  background: #0081c7; }
+  /* line 6, ../components/sass/_lifeu.scss */
+  .lifeu header nav {
+    margin-left: 50px;
+    background: url(../img/lifeu/lifeu_header.png) 50% 50% no-repeat; }
+    @media (min-width: 35em) {
+      /* line 6, ../components/sass/_lifeu.scss */
+      .lifeu header nav {
+        background-position: 0 50%; } }
+/* line 17, ../components/sass/_lifeu.scss */
 .lifeu section {
   background: url(../img/lifeu/textured_paper.png) repeat, #f4f4f4; }
   /* line 9, ../components/sass/_modules.scss */
@@ -852,7 +856,7 @@ body {
         content: "";
         display: table;
         clear: both; } }
-  /* line 19, ../components/sass/_lifeu.scss */
+  /* line 23, ../components/sass/_lifeu.scss */
   .lifeu section .main-content {
     *zoom: 1;
     padding-left: 1em;
@@ -864,43 +868,43 @@ body {
       content: "";
       display: table;
       clear: both; }
-  /* line 25, ../components/sass/_lifeu.scss */
+  /* line 29, ../components/sass/_lifeu.scss */
   .lifeu section .mobile-tiles img {
     width: 100%;
     height: auto;
     margin: 0;
     padding: 0; }
   @media (min-width: 35em) {
-    /* line 24, ../components/sass/_lifeu.scss */
+    /* line 28, ../components/sass/_lifeu.scss */
     .lifeu section .mobile-tiles {
       display: none; } }
-  /* line 37, ../components/sass/_lifeu.scss */
+  /* line 41, ../components/sass/_lifeu.scss */
   .lifeu section .desktop-tiles div {
     width: 16.66%;
     height: auto;
     float: left;
     position: relative;
     left: 2px; }
-  /* line 45, ../components/sass/_lifeu.scss */
+  /* line 49, ../components/sass/_lifeu.scss */
   .lifeu section .desktop-tiles .tile {
     background: url("../img/lifeu/homepage_tile_10_hover.png") no-repeat; }
-  /* line 51, ../components/sass/_lifeu.scss */
+  /* line 55, ../components/sass/_lifeu.scss */
   .lifeu section img {
     width: 100%;
     height: auto;
     margin: 0;
     padding: 0; }
-  /* line 58, ../components/sass/_lifeu.scss */
+  /* line 62, ../components/sass/_lifeu.scss */
   .lifeu section > img {
     padding: 2.5em; }
-/* line 64, ../components/sass/_lifeu.scss */
+/* line 68, ../components/sass/_lifeu.scss */
 .lifeu footer {
   background: url("../img/home/nationwide_financial_logo.png") 50% 20% no-repeat, #0081c7; }
   @media (min-width: 35em) {
-    /* line 64, ../components/sass/_lifeu.scss */
+    /* line 68, ../components/sass/_lifeu.scss */
     .lifeu footer {
       background-position: 35% 17%; } }
-  /* line 70, ../components/sass/_lifeu.scss */
+  /* line 74, ../components/sass/_lifeu.scss */
   .lifeu footer a {
     font-size: .9em; }
 
@@ -954,7 +958,7 @@ body {
           text-decoration: underline; }
   /* line 8, ../components/sass/_lifeusub.scss */
   .lifeu .requirements nav ul, .lifeu .faq nav ul, .lifeu .resources nav ul, .lifeu .destination nav ul, .lifeu .contact nav ul {
-    padding: 3em 1.5em; }
+    padding: 3em 1.5em 3em 0; }
     /* line 10, ../components/sass/_lifeusub.scss */
     .lifeu .requirements nav ul li, .lifeu .faq nav ul li, .lifeu .resources nav ul li, .lifeu .destination nav ul li, .lifeu .contact nav ul li {
       float: left; }
@@ -1093,15 +1097,18 @@ body {
 
 /* line 3, ../components/sass/_lifeufaq.scss */
 .lifeu .faq header {
-  background: url(../img/lifeu/lifeu_header.png) 50% 50% no-repeat, #ff2800; }
-  @media (min-width: 35em) {
-    /* line 3, ../components/sass/_lifeufaq.scss */
-    .lifeu .faq header {
-      background-position: 10% 50%; } }
-/* line 10, ../components/sass/_lifeufaq.scss */
+  background: #ff2800; }
+  /* line 5, ../components/sass/_lifeufaq.scss */
+  .lifeu .faq header nav {
+    background: url(../img/lifeu/lifeu_header.png) 50% 50% no-repeat; }
+    @media (min-width: 35em) {
+      /* line 5, ../components/sass/_lifeufaq.scss */
+      .lifeu .faq header nav {
+        background-position: 0 50%; } }
+/* line 13, ../components/sass/_lifeufaq.scss */
 .lifeu .faq h2 {
   color: #ff2800; }
-/* line 15, ../components/sass/_lifeufaq.scss */
+/* line 18, ../components/sass/_lifeufaq.scss */
 .lifeu .faq .main-section-content h1 {
   padding: 50px 0 0 4.5em;
   background: url(../img/lifeu/lifeu_faq_icon.png) 0 0 no-repeat;
@@ -1109,17 +1116,17 @@ body {
   height: 70px;
   color: #ff2800; }
   @media (min-width: 35em) {
-    /* line 15, ../components/sass/_lifeufaq.scss */
+    /* line 18, ../components/sass/_lifeufaq.scss */
     .lifeu .faq .main-section-content h1 {
       margin-left: 10.2%; } }
-/* line 27, ../components/sass/_lifeufaq.scss */
+/* line 30, ../components/sass/_lifeufaq.scss */
 .lifeu .faq footer {
   background: url("../img/home/nationwide_financial_logo.png") 50% 25% no-repeat, #ff2800; }
   @media (min-width: 35em) {
-    /* line 27, ../components/sass/_lifeufaq.scss */
+    /* line 30, ../components/sass/_lifeufaq.scss */
     .lifeu .faq footer {
       background-position: 37% 17%; } }
-  /* line 32, ../components/sass/_lifeufaq.scss */
+  /* line 35, ../components/sass/_lifeufaq.scss */
   .lifeu .faq footer a {
     font-size: 1.2em; }
 @media (min-width: 35em) {
@@ -1187,15 +1194,18 @@ body {
 
 /* line 3, ../components/sass/_lifeuresources.scss */
 .lifeu .resources header {
-  background: url(../img/lifeu/lifeu_header.png) 50% 50% no-repeat, #00b6b2; }
-  @media (min-width: 35em) {
-    /* line 3, ../components/sass/_lifeuresources.scss */
-    .lifeu .resources header {
-      background-position: 10% 50%; } }
-/* line 10, ../components/sass/_lifeuresources.scss */
+  background: #00b6b2; }
+  /* line 5, ../components/sass/_lifeuresources.scss */
+  .lifeu .resources header nav {
+    background: url(../img/lifeu/lifeu_header.png) 50% 50% no-repeat; }
+    @media (min-width: 35em) {
+      /* line 5, ../components/sass/_lifeuresources.scss */
+      .lifeu .resources header nav {
+        background-position: 0 50%; } }
+/* line 13, ../components/sass/_lifeuresources.scss */
 .lifeu .resources h2 {
   color: #00b6b2; }
-/* line 15, ../components/sass/_lifeuresources.scss */
+/* line 18, ../components/sass/_lifeuresources.scss */
 .lifeu .resources .main-section-content h1 {
   padding: 50px 0 0 4.5em;
   background: url(../img/lifeu/lifeu_resources_icon.png) 0 0 no-repeat;
@@ -1203,17 +1213,17 @@ body {
   height: 70px;
   color: #00b6b2; }
   @media (min-width: 35em) {
-    /* line 15, ../components/sass/_lifeuresources.scss */
+    /* line 18, ../components/sass/_lifeuresources.scss */
     .lifeu .resources .main-section-content h1 {
       margin-left: 10.2%; } }
-/* line 27, ../components/sass/_lifeuresources.scss */
+/* line 30, ../components/sass/_lifeuresources.scss */
 .lifeu .resources footer {
   background: url("../img/home/nationwide_financial_logo.png") 50% 25% no-repeat, #00b6b2; }
   @media (min-width: 35em) {
-    /* line 27, ../components/sass/_lifeuresources.scss */
+    /* line 30, ../components/sass/_lifeuresources.scss */
     .lifeu .resources footer {
       background-position: 37% 17%; } }
-  /* line 32, ../components/sass/_lifeuresources.scss */
+  /* line 35, ../components/sass/_lifeuresources.scss */
   .lifeu .resources footer a {
     font-size: 1.2em; }
 @media (min-width: 35em) {
@@ -1281,15 +1291,18 @@ body {
 
 /* line 3, ../components/sass/_lifeudestination.scss */
 .lifeu .destination header {
-  background: url(../img/lifeu/lifeu_header.png) 50% 50% no-repeat, #676d74; }
-  @media (min-width: 35em) {
-    /* line 3, ../components/sass/_lifeudestination.scss */
-    .lifeu .destination header {
-      background-position: 10% 50%; } }
-/* line 10, ../components/sass/_lifeudestination.scss */
+  background: #676d74; }
+  /* line 5, ../components/sass/_lifeudestination.scss */
+  .lifeu .destination header nav {
+    background: url(../img/lifeu/lifeu_header.png) 50% 50% no-repeat; }
+    @media (min-width: 35em) {
+      /* line 5, ../components/sass/_lifeudestination.scss */
+      .lifeu .destination header nav {
+        background-position: 0 50%; } }
+/* line 13, ../components/sass/_lifeudestination.scss */
 .lifeu .destination h2 {
   color: #676d74; }
-/* line 15, ../components/sass/_lifeudestination.scss */
+/* line 18, ../components/sass/_lifeudestination.scss */
 .lifeu .destination .main-section-content h1 {
   padding: 50px 0 0 4.5em;
   background: url(../img/lifeu/lifeu_destination_icon.png) 0 0 no-repeat;
@@ -1297,21 +1310,21 @@ body {
   height: 70px;
   color: #676d74; }
   @media (min-width: 35em) {
-    /* line 15, ../components/sass/_lifeudestination.scss */
+    /* line 18, ../components/sass/_lifeudestination.scss */
     .lifeu .destination .main-section-content h1 {
       margin-left: 10.2%; } }
-/* line 27, ../components/sass/_lifeudestination.scss */
+/* line 30, ../components/sass/_lifeudestination.scss */
 .lifeu .destination .aw-widget-current {
   padding-top: 2em;
   width: 50%; }
-/* line 32, ../components/sass/_lifeudestination.scss */
+/* line 35, ../components/sass/_lifeudestination.scss */
 .lifeu .destination footer {
   background: url("../img/home/nationwide_financial_logo.png") 50% 25% no-repeat, #676d74; }
   @media (min-width: 35em) {
-    /* line 32, ../components/sass/_lifeudestination.scss */
+    /* line 35, ../components/sass/_lifeudestination.scss */
     .lifeu .destination footer {
       background-position: 37% 17%; } }
-  /* line 37, ../components/sass/_lifeudestination.scss */
+  /* line 40, ../components/sass/_lifeudestination.scss */
   .lifeu .destination footer a {
     font-size: 1.2em; }
 @media (min-width: 35em) {
@@ -1379,15 +1392,18 @@ body {
 
 /* line 3, ../components/sass/_lifeucontact.scss */
 .lifeu .contact header {
-  background: url(../img/lifeu/lifeu_header.png) 50% 50% no-repeat, #ff9d00; }
-  @media (min-width: 35em) {
-    /* line 3, ../components/sass/_lifeucontact.scss */
-    .lifeu .contact header {
-      background-position: 10% 50%; } }
-/* line 10, ../components/sass/_lifeucontact.scss */
+  background: #ff9d00; }
+  /* line 5, ../components/sass/_lifeucontact.scss */
+  .lifeu .contact header nav {
+    background: url(../img/lifeu/lifeu_header.png) 50% 50% no-repeat; }
+    @media (min-width: 35em) {
+      /* line 5, ../components/sass/_lifeucontact.scss */
+      .lifeu .contact header nav {
+        background-position: 0 50%; } }
+/* line 13, ../components/sass/_lifeucontact.scss */
 .lifeu .contact h2 {
   color: #ff9d00; }
-/* line 15, ../components/sass/_lifeucontact.scss */
+/* line 18, ../components/sass/_lifeucontact.scss */
 .lifeu .contact .main-section-content h1 {
   padding: 50px 0 0 4.5em;
   background: url(../img/lifeu/lifeu_contact_icon.png) 0 0 no-repeat;
@@ -1395,17 +1411,17 @@ body {
   height: 70px;
   color: #ff9d00; }
   @media (min-width: 35em) {
-    /* line 15, ../components/sass/_lifeucontact.scss */
+    /* line 18, ../components/sass/_lifeucontact.scss */
     .lifeu .contact .main-section-content h1 {
       margin-left: 10.2%; } }
-/* line 27, ../components/sass/_lifeucontact.scss */
+/* line 30, ../components/sass/_lifeucontact.scss */
 .lifeu .contact footer {
   background: url("../img/home/nationwide_financial_logo.png") 50% 25% no-repeat, #ff9d00; }
   @media (min-width: 35em) {
-    /* line 27, ../components/sass/_lifeucontact.scss */
+    /* line 30, ../components/sass/_lifeucontact.scss */
     .lifeu .contact footer {
       background-position: 37% 17%; } }
-  /* line 32, ../components/sass/_lifeucontact.scss */
+  /* line 35, ../components/sass/_lifeucontact.scss */
   .lifeu .contact footer a {
     font-size: 1.2em; }
 @media (min-width: 35em) {

@@ -665,6 +665,19 @@ body {
     .footer p a, .lifeu footer p a {
       color: #f4f4f4;
       text-decoration: none; }
+  /* line 172, ../components/sass/_modules.scss */
+  .footer .regulatory-copy, .lifeu footer .regulatory-copy {
+    color: #f4f4f4;
+    display: block;
+    position: relative;
+    width: 40%;
+    bottom: -9em;
+    left: 26%;
+    text-align: right; }
+    @media (min-width: 35em) {
+      /* line 172, ../components/sass/_modules.scss */
+      .footer .regulatory-copy, .lifeu footer .regulatory-copy {
+        width: 65%; } }
 
 /* line 2, ../components/sass/_homepage.scss */
 .home-page body {
@@ -799,7 +812,7 @@ body {
   /* line 13, ../components/sass/_lifeu.scss */
   .lifeu header nav {
     margin-left: 50px;
-    background: url(../img/lifeu/lifeu_header.png) 50% 50% no-repeat; }
+    background: url(../img/lifeu/lifeu_header.png) 50% 35% no-repeat; }
     @media (min-width: 35em) {
       /* line 13, ../components/sass/_lifeu.scss */
       .lifeu header nav {
@@ -1132,7 +1145,7 @@ body {
   background: #ff2800; }
   /* line 5, ../components/sass/_lifeufaq.scss */
   .lifeu .faq header nav {
-    background: url(../img/lifeu/lifeu_header.png) 50% 50% no-repeat; }
+    background: url(../img/lifeu/lifeu_header.png) 50% 35% no-repeat; }
     @media (min-width: 35em) {
       /* line 5, ../components/sass/_lifeufaq.scss */
       .lifeu .faq header nav {
@@ -1229,7 +1242,7 @@ body {
   background: #00b6b2; }
   /* line 5, ../components/sass/_lifeuresources.scss */
   .lifeu .resources header nav {
-    background: url(../img/lifeu/lifeu_header.png) 50% 50% no-repeat; }
+    background: url(../img/lifeu/lifeu_header.png) 50% 35% no-repeat; }
     @media (min-width: 35em) {
       /* line 5, ../components/sass/_lifeuresources.scss */
       .lifeu .resources header nav {
@@ -1326,7 +1339,7 @@ body {
   background: #676d74; }
   /* line 5, ../components/sass/_lifeudestination.scss */
   .lifeu .destination header nav {
-    background: url(../img/lifeu/lifeu_header.png) 50% 50% no-repeat; }
+    background: url(../img/lifeu/lifeu_header.png) 50% 35% no-repeat; }
     @media (min-width: 35em) {
       /* line 5, ../components/sass/_lifeudestination.scss */
       .lifeu .destination header nav {
@@ -1427,7 +1440,7 @@ body {
   background: #ff9d00; }
   /* line 5, ../components/sass/_lifeucontact.scss */
   .lifeu .contact header nav {
-    background: url(../img/lifeu/lifeu_header.png) 50% 50% no-repeat; }
+    background: url(../img/lifeu/lifeu_header.png) 50% 35% no-repeat; }
     @media (min-width: 35em) {
       /* line 5, ../components/sass/_lifeucontact.scss */
       .lifeu .contact header nav {

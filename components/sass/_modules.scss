@@ -169,6 +169,18 @@
 			}
 			
 		}
+	.regulatory-copy {
+		color: $gray;
+		display: block;
+		position: relative;
+		width: 40%;
+		bottom: -9em;
+		left: 26%;
+		text-align: right;
+		@include at-breakpoint($beta) {
+			width: 65%;
+		}
+	}
 }
 
 

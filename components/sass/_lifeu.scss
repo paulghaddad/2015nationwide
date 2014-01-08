@@ -5,16 +5,29 @@
 			min-width: 1100px;
 			max-width: 1150px;
 		}
+		header {
+			height: 15em;
+			nav {
+				width: 100%;
+				height: 15em;
+				margin: 0;
+				@include at-breakpoint($beta) {
+					margin-left: 50px;
+				}
+			}	
+		}
+
 	}
 
 	header {
 		@extend .header;
 		background: $blue;
 		nav {
-			margin-left: 50px;
-			background: url(../img/lifeu/lifeu_header.png) 50% 35% no-repeat;
+			margin-left: 5px;
+			background: url(../img/lifeu/lifeu_header.png) 35% 35% no-repeat;
 			@include at-breakpoint($beta) {
 				background-position: 0 50%;
+				margin-left: 50px;
 			}
 		}
 	}

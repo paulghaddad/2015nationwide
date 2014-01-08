@@ -1,0 +1,149 @@
+.lt-ie9 {
+
+	//2015 homepage tweaks
+
+	.home-page {
+		nav {
+			background: url("../img/home/nationwide_insurance_logos_ie8.png") 10% 100% no-repeat;
+		}		
+
+		.conference-icons {
+
+			.icon {
+				width: 50%;
+				margin: 0;
+			}
+			.ie8-left-icon {
+					float: left;
+				}
+			.ie8-right-icon {
+				float: right;
+			}
+		}
+	}
+
+	//2015 LifeU Homepage tweaks
+
+	.lifeu .home {
+
+		section {
+			background: url(../img/lifeu/textured_paper.png) repeat;
+
+			.desktop-tiles {
+				margin: 0 auto;
+				width: auto;
+			}
+		}
+
+
+		footer {
+			background: $blue;
+			position: relative;
+			&:after {
+				content: url(../img/home/nationwide_financial_logo.png);
+				padding-left: 350px;
+				position: absolute;
+				bottom: 210px;
+
+			}
+		}
+	}
+
+	//2015 LifeU Requirements tweaks
+
+	.lifeu .requirements {
+		
+		background: url(../img/lifeu/textured_paper.png) repeat;
+
+		footer {
+			background: $blue;
+			position: relative;
+			&:after {
+				content: url(../img/home/nationwide_financial_logo.png);
+				padding-left: 350px;
+				position: absolute;
+				bottom: 210px;
+
+			}
+		}
+
+	}
+
+	//2015 LifeU FAQ tweaks
+
+	.lifeu .faq {
+
+		background: url(../img/lifeu/textured_paper.png) repeat;
+		
+		footer {
+			background: $orange-red;
+			position: relative;
+			&:after {
+				content: url(../img/home/nationwide_financial_logo.png);
+				padding-left: 350px;
+				position: absolute;
+				bottom: 210px;
+
+			}
+		}
+	}
+
+	//2015 LifeU Resources tweaks
+
+	.lifeu .resources {
+
+		background: url(../img/lifeu/textured_paper.png) repeat;
+		
+		footer {
+			background: $teal;
+			position: relative;
+			&:after {
+				content: url(../img/home/nationwide_financial_logo.png);
+				padding-left: 350px;
+				position: absolute;
+				bottom: 210px;
+
+			}
+		}
+	}
+
+	//2015 LifeU Destination tweaks
+
+	.lifeu .destination {
+
+		background: url(../img/lifeu/textured_paper.png) repeat;
+		
+		footer {
+			background: $dark-gray;
+			position: relative;
+			&:after {
+				content: url(../img/home/nationwide_financial_logo.png);
+				padding-left: 350px;
+				position: absolute;
+				bottom: 210px;
+
+			}
+		}
+	}
+
+	//2015 LifeU Contact tweaks
+
+	.lifeu .contact {
+
+		background: url(../img/lifeu/textured_paper.png) repeat;
+		
+		footer {
+			background: $orange;
+			position: relative;
+			&:after {
+				content: url(../img/home/nationwide_financial_logo.png);
+				padding-left: 350px;
+				position: absolute;
+				bottom: 210px;
+
+			}
+		}
+	}
+
+
+}

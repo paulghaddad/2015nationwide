@@ -776,29 +776,29 @@ body {
       width: 48.78049%;
       float: right;
       margin-right: 0; }
-    /* line 89, ../components/sass/_homepage.scss */
+    /* line 90, ../components/sass/_homepage.scss */
     .home-page .conference-icons img {
       width: 50%;
       min-width: 100px; } }
 @media (min-width: 35em) {
-  /* line 99, ../components/sass/_homepage.scss */
+  /* line 100, ../components/sass/_homepage.scss */
   .home-page header {
     background: url("../img/home/nationwide_insurance_logo.png") 10% 75% no-repeat, url("../img/home/nationwide_financial_logo.png") 29% 75% no-repeat, #1d1d1d;
     background-size: 14%; }
-    /* line 105, ../components/sass/_homepage.scss */
+    /* line 106, ../components/sass/_homepage.scss */
     .home-page header nav ul {
       float: right;
       width: 20em;
       padding: 6em 0 0 4em;
       position: static; }
-      /* line 110, ../components/sass/_homepage.scss */
+      /* line 111, ../components/sass/_homepage.scss */
       .home-page header nav ul li {
         width: 3.5em;
         float: left; }
-  /* line 117, ../components/sass/_homepage.scss */
+  /* line 118, ../components/sass/_homepage.scss */
   .home-page .conference-icons {
     margin: 3em 10%; }
-    /* line 119, ../components/sass/_homepage.scss */
+    /* line 120, ../components/sass/_homepage.scss */
     .home-page .conference-icons img {
       width: 70%; } }
 @media (min-width: 35em) {
@@ -1371,18 +1371,23 @@ body {
     /* line 18, ../components/sass/_lifeudestination.scss */
     .lifeu .destination .main-section-content h1 {
       margin-left: 10.2%; } }
-/* line 30, ../components/sass/_lifeudestination.scss */
+@media (min-width: 35em) {
+  /* line 30, ../components/sass/_lifeudestination.scss */
+  .lifeu .destination .main-content-wrapper .column-2-2 {
+    position: relative;
+    bottom: 120px; } }
+/* line 36, ../components/sass/_lifeudestination.scss */
 .lifeu .destination .aw-widget-current {
   padding-top: 2em;
-  width: 95%; }
-/* line 35, ../components/sass/_lifeudestination.scss */
+  width: 100%; }
+/* line 41, ../components/sass/_lifeudestination.scss */
 .lifeu .destination footer {
   background: url("../img/home/nationwide_financial_logo.png") 50% 25% no-repeat, #676d74; }
   @media (min-width: 35em) {
-    /* line 35, ../components/sass/_lifeudestination.scss */
+    /* line 41, ../components/sass/_lifeudestination.scss */
     .lifeu .destination footer {
       background-position: 37% 17%; } }
-  /* line 40, ../components/sass/_lifeudestination.scss */
+  /* line 46, ../components/sass/_lifeudestination.scss */
   .lifeu .destination footer a {
     font-size: 1.2em; }
 @media (min-width: 35em) {

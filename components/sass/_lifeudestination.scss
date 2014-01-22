@@ -26,10 +26,16 @@
 			}
 		}
 	} 
+	@include at-breakpoint($beta) {
+		.main-content-wrapper .column-2-2 {
+			position: relative;
+			bottom: 120px;
+		}
+	}
 
 	.aw-widget-current {
 		padding-top: 2em;
-		width: 95%;
+		width: 100%;
 	}
 
 	footer {

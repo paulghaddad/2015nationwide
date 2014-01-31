@@ -1567,20 +1567,20 @@ body {
 
 /* line 2, ../components/sass/_sc-grid.scss */
 .sales-celebration body {
-  min-width: 22rem; }
+  min-width: 22em; }
 /* line 6, ../components/sass/_sc-grid.scss */
 .sales-celebration [class*='col-'] {
   float: left;
-  padding-right: 1rem; }
+  padding-right: 1em; }
   /* line 10, ../components/sass/_sc-grid.scss */
   .grid-pad .sales-celebration [class*='col-']:last-of-type {
     padding-right: 0; }
 /* line 15, ../components/sass/_sc-grid.scss */
 .sales-celebration .grid-pad {
-  padding: 1rem; }
+  padding: 1em; }
   /* line 18, ../components/sass/_sc-grid.scss */
   .sales-celebration .grid-pad > section, .sales-celebration .grid-pad > footer {
-    padding: 1rem 5% 2rem 5%; }
+    padding: 1em 5% 2em 5%; }
 /* line 24, ../components/sass/_sc-grid.scss */
 .sales-celebration .col-2-3 {
   width: 66.66%; }
@@ -1596,6 +1596,18 @@ body {
 /* line 36, ../components/sass/_sc-grid.scss */
 .sales-celebration .col-1-8 {
   width: 12.5%; }
+
+/* line 3, ../components/sass/_sc-header.scss */
+.sales-celebration .main-header {
+  height: 5.5em;
+  background: url(../img/salescelebration/nationwide_logos.png) no-repeat 50% 10%; }
+  /* line 7, ../components/sass/_sc-header.scss */
+  .sales-celebration .main-header p {
+    display: none; }
+
+/* line 3, ../components/sass/_sc-main-content.scss */
+.sales-celebration .main-content {
+  height: 20em; }
 
 /* The Nivo Slider styles */
 /* line 3, ../components/sass/_nivoslider.scss */

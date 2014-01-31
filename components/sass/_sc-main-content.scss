@@ -1,6 +1,21 @@
 .sales-celebration {
 
   .main-content {
-    height: 20em;
+    min-height: 20em;
+    
+    img {
+      width: 100%;
+      height: auto;
+    }
+    .text-image {
+      width: 60%;
+      margin: 0 auto;
+      display: block;
+    }
+
+    .video-container {
+      margin-bottom: 2em;
+    }
+
   }
 }

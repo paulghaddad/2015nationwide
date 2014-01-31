@@ -1,0 +1,54 @@
+.sales-celebration {
+  .wf-loading h1 {
+    font-family: "droid-sans";
+    visibility: hidden;
+  }
+    .wf-active h1 {
+    visibility: visible;
+  }
+
+  body {
+    font-size: 1em;
+    color: gray;
+  }
+
+  a {
+    color: gray;
+  }
+}
+
+@mixin font($font) {
+  @if $font == prox-bold {
+    font-family: "proxima-nova",sans-serif;
+    font-style: normal;
+    font-weight: 700;
+  }
+  @else if $font == prox {
+    font-family: "proxima-nova",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+  }
+  @else if $font == acta {
+    font-family: "acta-display",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+  }
+  @else if $font == kepler-italic {
+    font-family: "kepler-std",serif;
+    font-style: italic;
+    font-weight: 400;
+  }
+  @else if $font == kepler-bold {
+    font-family: "kepler-std",serif;
+    font-style: normal;
+    font-weight: 700;
+  }
+  @else {
+    font-family: "kepler-std",serif;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+
+
+

@@ -1,11 +1,36 @@
 .sales-celebration {
 
   .main-header {
-    height: 5.5em;
-    background: url(../img/salescelebration/nationwide_logos.png) no-repeat 50% 25%;
+    margin: 0 auto;
+
+    max-width: 918px;
+    height: 4.5em;
+    background: url(../img/salescelebration/nationwide_logos_large.png) no-repeat 50% 40%;
+    background-size: 80%;
+    @include bp(alpha) {
+      background-position: 10% 95%;
+      background-size: 310px;
+      padding: .5em 5%;
+    }
+    @include bp(beta) {
+      background-size: 380px;
+    }
 
     p {
       display: none;
+      text-transform: uppercase;
+      font-size: .8em;
+      @include bp(beta) {
+        display: block;
+        float: right;
+        position: relative;
+        bottom: -2.75em;
+      }
+
+      a {
+        text-decoration: none;
+
+      }
     }
 
   }

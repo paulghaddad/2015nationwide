@@ -1,20 +1,53 @@
 .sales-celebration {
 
   .main-content {
-    min-height: 20em;
+    max-width: 918px;
+    margin: 0 auto;
     
     img {
       width: 100%;
       height: auto;
     }
+
+    .desktop-banner {
+      display: none;
+      @include bp(alpha) {
+        display: inline;
+      }
+    }
+
+    .mobile-banner {
+      @include bp(alpha) {
+        display: none;
+      }
+    }
+
     .text-image {
       width: 60%;
       margin: 0 auto;
       display: block;
+      @include bp(alpha) {
+        display: none;
+      }
+    }
+
+    .desktop {
+      display: none;
+      @include bp(alpha) {
+        display: block;
+        float: right;
+        width: 33%;
+        margin-top: 1.5em;
+      }
     }
 
     .video-container {
       margin-bottom: 2em;
+      @include bp(alpha) {
+        float: left;
+        width: 64%;
+        margin-top: 2em;
+      }
     }
 
   }
